@@ -219,7 +219,7 @@ if st.session_state.current_day != selected_day:
 
 lesson       = lessons_data[selected_day]
 lesson_title = lesson["title"]
-phrases      = lesson["sentences"]   # list 10 ประโยค (key: "sentences")
+phrases      = lesson["phrases"]   # list 10 ประโยค (key: "sentences")
 quiz_list    = lesson["quizzes"]     # list 3 ควิซ
 is_completed = selected_day in st.session_state.completed_days
 
