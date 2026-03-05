@@ -42,22 +42,42 @@ st.markdown("""
     .xp-box h2 { color: #1a1a2e !important; margin: 0; font-size: 2rem; }
     .xp-box p  { color: #1a1a2e !important; margin: 0; font-size: 0.85rem; opacity: 0.8; }
 
+    /* ============================================================
+       FIX #1 — บังคับสีตัวหนังสือและพื้นหลังในทุก Theme (Dark/Light)
+       ============================================================ */
+
     /* การ์ดประโยคมีเส้นซ้ายสีฟ้า */
     .phrase-card {
-        background: #f8faff;
+        background: #ffffff !important;
         border-left: 5px solid #4a90e2;
         border-radius: 12px;
         padding: 14px 18px;
         margin-bottom: 10px;
     }
+    /* บังคับ text ทุกชนิดใน phrase-card ให้เป็นสีดำสนิท */
+    .phrase-card *,
+    .phrase-card p,
+    .phrase-card strong,
+    .phrase-card span {
+        color: #111111 !important;
+    }
+
     /* กล่องคำถาม Quiz สีม่วงอ่อน */
     .quiz-card {
-        background: #f0f0ff;
+        background: #f0f0ff !important;
         border-left: 5px solid #7c5cbf;
         border-radius: 12px;
         padding: 14px 18px;
         margin-bottom: 6px;
     }
+    /* บังคับ text ทุกชนิดใน quiz-card ให้เป็นสีดำสนิท */
+    .quiz-card *,
+    .quiz-card p,
+    .quiz-card strong,
+    .quiz-card span {
+        color: #111111 !important;
+    }
+
     /* ปุ่ม primary สีเขียวสดใส */
     div[data-testid="stButton"] button[kind="primary"] {
         border-radius: 14px !important;
@@ -178,8 +198,9 @@ with st.sidebar:
         label_visibility="collapsed"
     )
 
-    # ตัด prefix ไอคอน 4 ตัวอักษรออก ("✅  " หรือ "📖  ") เพื่อได้ชื่อ Day จริง
-    selected_day = selected_label[3:]
+    # FIX #2 — ตัด prefix ไอคอน 4 ตัวอักษรออก แล้ว .strip() กัน Space ส่วนเกิน
+    # ป้องกัน KeyError หากมี whitespace แอบติดมาจาก emoji/unicode
+    selected_day = selected_label[3:].strip()
 
 
 # ============================================================
@@ -198,8 +219,8 @@ if st.session_state.current_day != selected_day:
 
 lesson       = lessons_data[selected_day]
 lesson_title = lesson["title"]
-phrases      = lesson["phrases"]   # list 10 ประโยค
-quiz_list    = lesson["quizzes"]   # list 3 ควิซ
+phrases      = lesson["sentences"]   # list 10 ประโยค (key: "sentences")
+quiz_list    = lesson["quizzes"]     # list 3 ควิซ
 is_completed = selected_day in st.session_state.completed_days
 
 
@@ -231,9 +252,12 @@ for i, phrase in enumerate(phrases):
     col_text, col_audio = st.columns([10, 1])
 
     with col_text:
+        # FIX #1 — บังคับ color: black ด้วย inline style ใน <p> tag
         st.markdown(f"""
         <div class="phrase-card">
-            <strong>{i + 1}. {phrase['english']}</strong>
+            <p style="margin:0; color:#111111 !important;">
+                <strong style="color:#111111 !important;">{i + 1}. {phrase['english']}</strong>
+            </p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -266,7 +290,7 @@ with col_xp_h:
     st.markdown("""
     <div style='background:linear-gradient(135deg,#f6d365,#fda085);
                 border-radius:10px; padding:10px 14px; text-align:center; margin-top:8px;'>
-        <strong style='color:#1a1a2e; font-size:1rem;'>🏆 ผ่านทุกข้อ = +50 XP</strong>
+        <strong style='color:#1a1a2e !important; font-size:1rem;'>🏆 ผ่านทุกข้อ = +50 XP</strong>
     </div>
     """, unsafe_allow_html=True)
 
@@ -275,16 +299,18 @@ st.write("")
 
 for q_idx, quiz in enumerate(quiz_list):
 
-    # กล่องคำถามสีม่วงอ่อน
+    # FIX #1 — กล่องคำถามบังคับสีดำด้วย inline style
     st.markdown(f"""
     <div class="quiz-card">
-        <strong>ข้อ {q_idx + 1}: {quiz['question']}</strong>
+        <p style="margin:0; color:#111111 !important;">
+            <strong style="color:#111111 !important;">ข้อ {q_idx + 1}: {quiz['question']}</strong>
+        </p>
     </div>
     """, unsafe_allow_html=True)
 
     selected_option = st.radio(
         label=f"q{q_idx}",
-        options=quiz["options"],
+        options=quiz["choices"],
         key=f"quiz_{selected_day}_{q_idx}",
         index=None,
         label_visibility="collapsed"

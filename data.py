@@ -879,5 +879,836 @@ lessons_data = {
             },
         ]
     },
+    
+    "Day 11": {
+        "title": "การแสดงอารมณ์และความรู้สึก",
+        "sentences": [
+            {
+                "english": "I am so happy today!",
+                "pronunciation": "ไอ แอม โซ แฮปปี้ ทูเดย์",
+                "meaning": "ฉันมีความสุขมากวันนี้!"
+            },
+            {
+                "english": "She looks really sad.",
+                "pronunciation": "ชี ลุคส์ เรียลลี่ แซด",
+                "meaning": "เธอดูเศร้ามาก"
+            },
+            {
+                "english": "I am angry about what happened.",
+                "pronunciation": "ไอ แอม แองกรี้ อะเบาท์ วอท แฮพเพนด์",
+                "meaning": "ฉันโกรธกับสิ่งที่เกิดขึ้น"
+            },
+            {
+                "english": "He feels nervous before the exam.",
+                "pronunciation": "ฮี ฟีลส์ เนอร์วัส บีฟอร์ ดิ อิกแซม",
+                "meaning": "เขารู้สึกประหม่าก่อนสอบ"
+            },
+            {
+                "english": "I am excited about the trip.",
+                "pronunciation": "ไอ แอม เอ็กไซเต็ด อะเบาท์ เดอะ ทริป",
+                "meaning": "ฉันตื่นเต้นกับการเดินทาง"
+            },
+            {
+                "english": "They are surprised by the news.",
+                "pronunciation": "เดย์ อาร์ เซอร์ไพรซ์ด์ บาย เดอะ นิวส์",
+                "meaning": "พวกเขาประหลาดใจกับข่าวนั้น"
+            },
+            {
+                "english": "I feel tired and need to rest.",
+                "pronunciation": "ไอ ฟีล ไทร์ด แอนด์ นีด ทู เรสท์",
+                "meaning": "ฉันรู้สึกเหนื่อยและต้องการพัก"
+            },
+            {
+                "english": "She is proud of her achievement.",
+                "pronunciation": "ชี อิส พราวด์ ออฟ เฮอร์ อะชีฟเมนท์",
+                "meaning": "เธอภูมิใจในความสำเร็จของเธอ"
+            },
+            {
+                "english": "I feel lonely when you are away.",
+                "pronunciation": "ไอ ฟีล โลนลี่ เวน ยู อาร์ อะเวย์",
+                "meaning": "ฉันรู้สึกเหงาเมื่อคุณไม่อยู่"
+            },
+            {
+                "english": "He is worried about his health.",
+                "pronunciation": "ฮี อิส วอร์ริด อะเบาท์ ฮิส เฮลธ์",
+                "meaning": "เขากังวลเกี่ยวกับสุขภาพของตัวเอง"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "คำว่า 'nervous' หมายความว่าอะไร?",
+                "choices": ["ดีใจ", "ประหม่า / กังวล", "โกรธ", "เศร้า"],
+                "answer": "ประหม่า / กังวล"
+            },
+            {
+                "question": "ประโยคใดแสดงความรู้สึกตื่นเต้น?",
+                "choices": [
+                    "I feel lonely when you are away.",
+                    "She looks really sad.",
+                    "I am excited about the trip.",
+                    "He is worried about his health."
+                ],
+                "answer": "I am excited about the trip."
+            },
+            {
+                "question": "'She is proud of her achievement.' แปลว่าอะไร?",
+                "choices": [
+                    "เธอเหนื่อยกับการทำงาน",
+                    "เธอภูมิใจในความสำเร็จของเธอ",
+                    "เธอโกรธกับผลลัพธ์",
+                    "เธอประหลาดใจกับรางวัล"
+                ],
+                "answer": "เธอภูมิใจในความสำเร็จของเธอ"
+            }
+        ]
+    },
+    "Day 12": {
+        "title": "การบอกเวลา",
+        "sentences": [
+            {
+                "english": "What time is it now?",
+                "pronunciation": "วอท ไทม์ อิส อิท เนา",
+                "meaning": "ตอนนี้กี่โมงแล้ว?"
+            },
+            {
+                "english": "It is three o'clock.",
+                "pronunciation": "อิท อิส ธรี โอ'คล็อค",
+                "meaning": "ตอนนี้สามโมงแล้ว"
+            },
+            {
+                "english": "The meeting starts at half past nine.",
+                "pronunciation": "เดอะ มีทติ้ง สตาร์ทส์ แอท ฮาฟ พาสท์ ไนน์",
+                "meaning": "การประชุมเริ่มเวลาเก้าโมงครึ่ง"
+            },
+            {
+                "english": "I wake up at six in the morning.",
+                "pronunciation": "ไอ เวค อัพ แอท ซิกซ์ อิน เดอะ มอร์นิง",
+                "meaning": "ฉันตื่นนอนตีหกตอนเช้า"
+            },
+            {
+                "english": "The train arrives at quarter to eight.",
+                "pronunciation": "เดอะ เทรน อะไรฟส์ แอท ควอร์เทอร์ ทู เอท",
+                "meaning": "รถไฟมาถึงเวลาแปดโมงลบสิบห้านาที"
+            },
+            {
+                "english": "We have lunch at noon.",
+                "pronunciation": "วี แฮฟ ลันช์ แอท นูน",
+                "meaning": "เรากินอาหารกลางวันตอนเที่ยง"
+            },
+            {
+                "english": "The shop closes at ten p.m.",
+                "pronunciation": "เดอะ ชอป โคลเซส แอท เทน พีเอ็ม",
+                "meaning": "ร้านปิดตอนสี่ทุ่ม"
+            },
+            {
+                "english": "Can you meet me at five thirty?",
+                "pronunciation": "แคน ยู มีท มี แอท ไฟฟ์ เทอร์ตี้",
+                "meaning": "คุณมาพบฉันตอนห้าโมงครึ่งได้ไหม?"
+            },
+            {
+                "english": "It is almost midnight.",
+                "pronunciation": "อิท อิส ออลโมสท์ มิดไนท์",
+                "meaning": "เกือบเที่ยงคืนแล้ว"
+            },
+            {
+                "english": "The class ends in ten minutes.",
+                "pronunciation": "เดอะ คลาส เอนดส์ อิน เทน มินิทส์",
+                "meaning": "ชั้นเรียนจะจบในอีกสิบนาที"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'Half past nine' หมายถึงเวลาเท่าไหร่?",
+                "choices": ["9:00", "9:15", "9:30", "8:30"],
+                "answer": "9:30"
+            },
+            {
+                "question": "ประโยคใดใช้ถามเวลา?",
+                "choices": [
+                    "It is three o'clock.",
+                    "What time is it now?",
+                    "We have lunch at noon.",
+                    "The shop closes at ten p.m."
+                ],
+                "answer": "What time is it now?"
+            },
+            {
+                "question": "'Quarter to eight' หมายถึงเวลาเท่าไหร่?",
+                "choices": ["8:15", "7:45", "8:45", "7:15"],
+                "answer": "7:45"
+            }
+        ]
+    },
+    "Day 13": {
+        "title": "การบรรยายลักษณะผู้คน และการซื้อของ",
+        "sentences": [
+            {
+                "english": "She has long curly hair.",
+                "pronunciation": "ชี แฮส ลอง เคอร์ลี่ แฮร์",
+                "meaning": "เธอมีผมยาวหยิก"
+            },
+            {
+                "english": "He is tall and slim.",
+                "pronunciation": "ฮี อิส ทอล แอนด์ สลิม",
+                "meaning": "เขาสูงและผอม"
+            },
+            {
+                "english": "How much does this shirt cost?",
+                "pronunciation": "เฮา มัช ดัส ดิส เชิร์ท คอสท์",
+                "meaning": "เสื้อตัวนี้ราคาเท่าไหร่?"
+            },
+            {
+                "english": "This bag is on sale.",
+                "pronunciation": "ดิส แบ็ก อิส ออน เซล",
+                "meaning": "กระเป๋าใบนี้กำลังลดราคาอยู่"
+            },
+            {
+                "english": "Do you have this in a larger size?",
+                "pronunciation": "ดู ยู แฮฟ ดิส อิน อะ ลาร์เจอร์ ไซส์",
+                "meaning": "คุณมีขนาดที่ใหญ่กว่านี้ไหม?"
+            },
+            {
+                "english": "She is wearing a red dress.",
+                "pronunciation": "ชี อิส แวริง อะ เรด เดรส",
+                "meaning": "เธอกำลังสวมชุดสีแดงอยู่"
+            },
+            {
+                "english": "Can I try this on?",
+                "pronunciation": "แคน ไอ ทราย ดิส ออน",
+                "meaning": "ฉันขอลองสวมดูได้ไหม?"
+            },
+            {
+                "english": "He has blue eyes and a friendly smile.",
+                "pronunciation": "ฮี แฮส บลู อายส์ แอนด์ อะ เฟรนด์ลี่ สไมล์",
+                "meaning": "เขามีตาสีฟ้าและรอยยิ้มที่เป็นมิตร"
+            },
+            {
+                "english": "I would like to pay by credit card.",
+                "pronunciation": "ไอ วูด ไลค์ ทู เพย์ บาย เครดิต การ์ด",
+                "meaning": "ฉันต้องการจ่ายด้วยบัตรเครดิต"
+            },
+            {
+                "english": "Do you accept cash only?",
+                "pronunciation": "ดู ยู แอ็คเซ็พท์ แคช โอนลี่",
+                "meaning": "คุณรับแค่เงินสดเท่านั้นหรือ?"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้เมื่อต้องการลองเสื้อผ้า?",
+                "choices": [
+                    "How much does this shirt cost?",
+                    "Can I try this on?",
+                    "This bag is on sale.",
+                    "Do you accept cash only?"
+                ],
+                "answer": "Can I try this on?"
+            },
+            {
+                "question": "'She has long curly hair.' แปลว่าอะไร?",
+                "choices": [
+                    "เธอมีผมสั้นตรง",
+                    "เธอมีผมยาวหยิก",
+                    "เธอมีผมสีทอง",
+                    "เธอมีผมสั้นหยิก"
+                ],
+                "answer": "เธอมีผมยาวหยิก"
+            },
+            {
+                "question": "หากต้องการถามราคาสินค้า ควรใช้ประโยคใด?",
+                "choices": [
+                    "Can I try this on?",
+                    "Do you have this in a larger size?",
+                    "How much does this shirt cost?",
+                    "I would like to pay by credit card."
+                ],
+                "answer": "How much does this shirt cost?"
+            }
+        ]
+    },
+    "Day 14": {
+        "title": "การบอกทาง",
+        "sentences": [
+            {
+                "english": "Excuse me, where is the nearest bank?",
+                "pronunciation": "เอ็กคิวส์ มี แวร์ อิส เดอะ เนียเรสท์ แบงค์",
+                "meaning": "ขอโทษ ธนาคารที่ใกล้ที่สุดอยู่ที่ไหน?"
+            },
+            {
+                "english": "Turn left at the traffic light.",
+                "pronunciation": "เทิร์น เลฟท์ แอท เดอะ แทร็ฟฟิค ไลท์",
+                "meaning": "เลี้ยวซ้ายที่สัญญาณไฟจราจร"
+            },
+            {
+                "english": "Go straight ahead for two blocks.",
+                "pronunciation": "โก สเตรท อะเฮด ฟอร์ ทู บล็อคส์",
+                "meaning": "ตรงไปอีกสองช่วงตึก"
+            },
+            {
+                "english": "Turn right after the school.",
+                "pronunciation": "เทิร์น ไรท์ อาฟเทอร์ เดอะ สคูล",
+                "meaning": "เลี้ยวขวาหลังจากโรงเรียน"
+            },
+            {
+                "english": "The hotel is on the left side.",
+                "pronunciation": "เดอะ โฮเทล อิส ออน เดอะ เลฟท์ ไซด์",
+                "meaning": "โรงแรมอยู่ทางฝั่งซ้าย"
+            },
+            {
+                "english": "It is about five minutes walk from here.",
+                "pronunciation": "อิท อิส อะเบาท์ ไฟฟ์ มินิทส์ วอล์ค ฟรอม เฮียร์",
+                "meaning": "ห่างจากที่นี่ประมาณห้านาทีเดินเท้า"
+            },
+            {
+                "english": "Take the second street on the right.",
+                "pronunciation": "เทค เดอะ เซคเคิ่นด์ สตรีท ออน เดอะ ไรท์",
+                "meaning": "เข้าซอยที่สองทางขวามือ"
+            },
+            {
+                "english": "You cannot miss it.",
+                "pronunciation": "ยู แคนนอท มิส อิท",
+                "meaning": "คุณจะต้องเห็นแน่นอน (ไม่มีทางพลาด)"
+            },
+            {
+                "english": "Is it far from here?",
+                "pronunciation": "อิส อิท ฟาร์ ฟรอม เฮียร์",
+                "meaning": "มันอยู่ไกลจากที่นี่ไหม?"
+            },
+            {
+                "english": "Cross the bridge and you will see the park.",
+                "pronunciation": "ครอส เดอะ บริดจ์ แอนด์ ยู วิล ซี เดอะ พาร์ค",
+                "meaning": "ข้ามสะพานแล้วคุณจะเห็นสวนสาธารณะ"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'Turn left at the traffic light.' แปลว่าอะไร?",
+                "choices": [
+                    "ตรงไปที่สัญญาณไฟ",
+                    "เลี้ยวขวาที่สัญญาณไฟ",
+                    "เลี้ยวซ้ายที่สัญญาณไฟจราจร",
+                    "หยุดที่สัญญาณไฟ"
+                ],
+                "answer": "เลี้ยวซ้ายที่สัญญาณไฟจราจร"
+            },
+            {
+                "question": "ประโยคใดใช้ถามเส้นทาง?",
+                "choices": [
+                    "You cannot miss it.",
+                    "It is about five minutes walk.",
+                    "Excuse me, where is the nearest bank?",
+                    "Cross the bridge and you will see the park."
+                ],
+                "answer": "Excuse me, where is the nearest bank?"
+            },
+            {
+                "question": "'Go straight ahead' หมายความว่าอะไร?",
+                "choices": ["เลี้ยวซ้าย", "เลี้ยวขวา", "ถอยหลัง", "ตรงไปข้างหน้า"],
+                "answer": "ตรงไปข้างหน้า"
+            }
+        ]
+    },
+    "Day 15": {
+        "title": "การไปพบแพทย์",
+        "sentences": [
+            {
+                "english": "I would like to make an appointment with the doctor.",
+                "pronunciation": "ไอ วูด ไลค์ ทู เมค แอน อะพอยท์เมนท์ วิธ เดอะ ด็อคเตอร์",
+                "meaning": "ฉันต้องการนัดพบแพทย์"
+            },
+            {
+                "english": "I have a headache and a fever.",
+                "pronunciation": "ไอ แฮฟ อะ เฮดเอค แอนด์ อะ ฟีเวอร์",
+                "meaning": "ฉันมีอาการปวดหัวและเป็นไข้"
+            },
+            {
+                "english": "My throat is very sore.",
+                "pronunciation": "มาย โธรท อิส เวรี่ ซอร์",
+                "meaning": "ลำคอของฉันเจ็บมาก"
+            },
+            {
+                "english": "How long have you had this pain?",
+                "pronunciation": "เฮา ลอง แฮฟ ยู แฮด ดิส เพน",
+                "meaning": "คุณมีอาการปวดนี้มานานแค่ไหนแล้ว?"
+            },
+            {
+                "english": "I have been feeling sick for three days.",
+                "pronunciation": "ไอ แฮฟ บีน ฟีลิง ซิค ฟอร์ ธรี เดย์ส",
+                "meaning": "ฉันรู้สึกไม่สบายมาสามวันแล้ว"
+            },
+            {
+                "english": "Are you allergic to any medicine?",
+                "pronunciation": "อาร์ ยู อะเลอร์จิค ทู เอนนี่ เมดิซิน",
+                "meaning": "คุณแพ้ยาตัวใดหรือไม่?"
+            },
+            {
+                "english": "Please take this medicine twice a day.",
+                "pronunciation": "พลีส เทค ดิส เมดิซิน ทไวส์ อะ เดย์",
+                "meaning": "กรุณาทานยานี้วันละสองครั้ง"
+            },
+            {
+                "english": "I have a pain in my stomach.",
+                "pronunciation": "ไอ แฮฟ อะ เพน อิน มาย สตัมมัค",
+                "meaning": "ฉันมีอาการปวดท้อง"
+            },
+            {
+                "english": "You need to get some rest.",
+                "pronunciation": "ยู นีด ทู เก็ท ซัม เรสท์",
+                "meaning": "คุณต้องพักผ่อน"
+            },
+            {
+                "english": "I will write you a prescription.",
+                "pronunciation": "ไอ วิล ไรท์ ยู อะ พรีสคริปชัน",
+                "meaning": "ฉันจะเขียนใบสั่งยาให้คุณ"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้บอกอาการเจ็บป่วย?",
+                "choices": [
+                    "I will write you a prescription.",
+                    "Are you allergic to any medicine?",
+                    "I have a headache and a fever.",
+                    "You need to get some rest."
+                ],
+                "answer": "I have a headache and a fever."
+            },
+            {
+                "question": "'Are you allergic to any medicine?' แปลว่าอะไร?",
+                "choices": [
+                    "คุณทานยาวันละกี่ครั้ง?",
+                    "คุณแพ้ยาตัวใดหรือไม่?",
+                    "คุณซื้อยาที่ไหน?",
+                    "คุณมีใบสั่งยาไหม?"
+                ],
+                "answer": "คุณแพ้ยาตัวใดหรือไม่?"
+            },
+            {
+                "question": "'Prescription' หมายถึงอะไร?",
+                "choices": ["ใบเสร็จ", "ใบนัด", "ใบสั่งยา", "ผลการตรวจ"],
+                "answer": "ใบสั่งยา"
+            }
+        ]
+    },
+    "Day 16": {
+        "title": "การพูดคุยเกี่ยวกับทักษะและความสามารถ",
+        "sentences": [
+            {
+                "english": "I can speak three languages.",
+                "pronunciation": "ไอ แคน สปีค ธรี แลงกวิดเจส",
+                "meaning": "ฉันพูดได้สามภาษา"
+            },
+            {
+                "english": "She is very good at cooking.",
+                "pronunciation": "ชี อิส เวรี่ กุด แอท คุกกิ้ง",
+                "meaning": "เธอทำอาหารเก่งมาก"
+            },
+            {
+                "english": "He cannot swim at all.",
+                "pronunciation": "ฮี แคนนอท สวิม แอท ออล",
+                "meaning": "เขาว่ายน้ำไม่เป็นเลย"
+            },
+            {
+                "english": "I know how to play the guitar.",
+                "pronunciation": "ไอ โน ฮาว ทู เพลย์ เดอะ กีตาร์",
+                "meaning": "ฉันรู้วิธีเล่นกีตาร์"
+            },
+            {
+                "english": "She is skilled at drawing.",
+                "pronunciation": "ชี อิส สกิลด์ แอท ดรอว์อิง",
+                "meaning": "เธอมีทักษะในการวาดภาพ"
+            },
+            {
+                "english": "I am still learning how to drive.",
+                "pronunciation": "ไอ แอม สติล เลิร์นนิง ฮาว ทู ไดรฟ์",
+                "meaning": "ฉันยังเรียนขับรถอยู่"
+            },
+            {
+                "english": "He has excellent leadership skills.",
+                "pronunciation": "ฮี แฮส เอ็กเซลเลนท์ ลีดเดอร์ชิพ สกิลส์",
+                "meaning": "เขามีทักษะความเป็นผู้นำที่ยอดเยี่ยม"
+            },
+            {
+                "english": "I am not very good at math.",
+                "pronunciation": "ไอ แอม น็อท เวรี่ กุด แอท แมธ",
+                "meaning": "ฉันไม่ค่อยเก่งคณิตศาสตร์"
+            },
+            {
+                "english": "Can you teach me how to use this software?",
+                "pronunciation": "แคน ยู ทีช มี ฮาว ทู ยูส ดิส ซอฟท์แวร์",
+                "meaning": "คุณสอนวิธีใช้ซอฟต์แวร์นี้ให้ฉันได้ไหม?"
+            },
+            {
+                "english": "She can type very fast.",
+                "pronunciation": "ชี แคน ไทพ์ เวรี่ ฟาสท์",
+                "meaning": "เธอพิมพ์ดีดได้เร็วมาก"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดแสดงว่าทำสิ่งใดสิ่งหนึ่งไม่ได้เลย?",
+                "choices": [
+                    "I can speak three languages.",
+                    "She can type very fast.",
+                    "He cannot swim at all.",
+                    "I know how to play the guitar."
+                ],
+                "answer": "He cannot swim at all."
+            },
+            {
+                "question": "'She is skilled at drawing.' แปลว่าอะไร?",
+                "choices": [
+                    "เธอกำลังเรียนวาดภาพ",
+                    "เธอมีทักษะในการวาดภาพ",
+                    "เธอชอบดูภาพวาด",
+                    "เธอซื้ออุปกรณ์วาดภาพ"
+                ],
+                "answer": "เธอมีทักษะในการวาดภาพ"
+            },
+            {
+                "question": "หากต้องการบอกว่าตนเองไม่เก่งในสิ่งใด ควรใช้โครงสร้างใด?",
+                "choices": [
+                    "I can ... very well.",
+                    "I am not very good at ...",
+                    "I know how to ...",
+                    "I am skilled at ..."
+                ],
+                "answer": "I am not very good at ..."
+            }
+        ]
+    },
+    "Day 17": {
+        "title": "การพูดคุยเกี่ยวกับวันหยุด",
+        "sentences": [
+            {
+                "english": "Where did you go for your holiday?",
+                "pronunciation": "แวร์ ดิด ยู โก ฟอร์ ยัวร์ ฮอลิเดย์",
+                "meaning": "คุณไปไหนในช่วงวันหยุด?"
+            },
+            {
+                "english": "I spent my vacation in Japan.",
+                "pronunciation": "ไอ สเพนท์ มาย เวเคชัน อิน เจแปน",
+                "meaning": "ฉันใช้เวลาพักร้อนอยู่ที่ญี่ปุ่น"
+            },
+            {
+                "english": "We stayed at a beachside resort.",
+                "pronunciation": "วี สเตย์ด แอท อะ บีชไซด์ รีสอร์ท",
+                "meaning": "เราพักอยู่ที่รีสอร์ทริมทะเล"
+            },
+            {
+                "english": "The trip was absolutely wonderful.",
+                "pronunciation": "เดอะ ทริป วอส แอบโซลูทลี่ วันเดอร์ฟูล",
+                "meaning": "การเดินทางครั้งนั้นวิเศษมากจริงๆ"
+            },
+            {
+                "english": "I went sightseeing around the old town.",
+                "pronunciation": "ไอ เวนท์ ไซท์ซีอิง อะราวด์ เดอะ โอลด์ ทาวน์",
+                "meaning": "ฉันไปเที่ยวชมเมืองเก่า"
+            },
+            {
+                "english": "We tried a lot of local food.",
+                "pronunciation": "วี ทราย อะ ล็อท ออฟ โลเคิล ฟูด",
+                "meaning": "พวกเราลองกินอาหารท้องถิ่นหลายอย่าง"
+            },
+            {
+                "english": "I took hundreds of photos there.",
+                "pronunciation": "ไอ ทุค ฮันเดรดส์ ออฟ โฟโตส แดร์",
+                "meaning": "ฉันถ่ายรูปไปหลายร้อยรูปที่นั่น"
+            },
+            {
+                "english": "We had so much fun at the theme park.",
+                "pronunciation": "วี แฮด โซ มัช ฟัน แอท เดอะ ธีม พาร์ค",
+                "meaning": "พวกเราสนุกมากที่สวนสนุก"
+            },
+            {
+                "english": "I would love to go back there someday.",
+                "pronunciation": "ไอ วูด เลิฟ ทู โก แบ็ค แดร์ ซัมเดย์",
+                "meaning": "ฉันอยากกลับไปที่นั่นอีกสักครั้ง"
+            },
+            {
+                "english": "My favourite part was the sunset cruise.",
+                "pronunciation": "มาย เฟเวอริท พาร์ท วอส เดอะ ซันเซ็ท ครูส",
+                "meaning": "ส่วนที่ฉันชอบที่สุดคือทัวร์ล่องเรือชมพระอาทิตย์ตก"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'I spent my vacation in Japan.' แปลว่าอะไร?",
+                "choices": [
+                    "ฉันอยากไปเที่ยวญี่ปุ่น",
+                    "ฉันใช้เวลาพักร้อนอยู่ที่ญี่ปุ่น",
+                    "ฉันเพิ่งกลับจากญี่ปุ่น",
+                    "ฉันวางแผนจะไปญี่ปุ่น"
+                ],
+                "answer": "ฉันใช้เวลาพักร้อนอยู่ที่ญี่ปุ่น"
+            },
+            {
+                "question": "ประโยคใดแสดงถึงการชื่นชอบกิจกรรมในวันหยุด?",
+                "choices": [
+                    "Where did you go for your holiday?",
+                    "We stayed at a beachside resort.",
+                    "My favourite part was the sunset cruise.",
+                    "I took hundreds of photos there."
+                ],
+                "answer": "My favourite part was the sunset cruise."
+            },
+            {
+                "question": "'Sightseeing' หมายถึงอะไร?",
+                "choices": ["การซื้อของ", "การท่องเที่ยวชมสถานที่", "การถ่ายรูป", "การลองอาหาร"],
+                "answer": "การท่องเที่ยวชมสถานที่"
+            }
+        ]
+    },
+    "Day 18": {
+        "title": "การพูดคุยเกี่ยวกับสภาพอากาศ",
+        "sentences": [
+            {
+                "english": "What is the weather like today?",
+                "pronunciation": "วอท อิส เดอะ เวเธอร์ ไลค์ ทูเดย์",
+                "meaning": "วันนี้อากาศเป็นยังไงบ้าง?"
+            },
+            {
+                "english": "It is very hot and humid.",
+                "pronunciation": "อิท อิส เวรี่ ฮ็อท แอนด์ ฮิวมิด",
+                "meaning": "อากาศร้อนและชื้นมาก"
+            },
+            {
+                "english": "It is raining heavily outside.",
+                "pronunciation": "อิท อิส เรนนิง เฮวิลี่ เอาท์ไซด์",
+                "meaning": "ข้างนอกฝนตกหนักมาก"
+            },
+            {
+                "english": "Take an umbrella just in case.",
+                "pronunciation": "เทค แอน อัมเบรลลา จัสท์ อิน เคส",
+                "meaning": "พกร่มไว้เผื่อไว้ด้วยนะ"
+            },
+            {
+                "english": "The forecast says it will snow tomorrow.",
+                "pronunciation": "เดอะ ฟอร์คาสท์ เซส อิท วิล สโน ทูมอร์โรว์",
+                "meaning": "พยากรณ์อากาศบอกว่าพรุ่งนี้จะมีหิมะตก"
+            },
+            {
+                "english": "It is a beautiful sunny day.",
+                "pronunciation": "อิท อิส อะ บิวทิฟูล ซันนี่ เดย์",
+                "meaning": "วันนี้เป็นวันที่อากาศแดดดีสวยงาม"
+            },
+            {
+                "english": "The temperature is below zero.",
+                "pronunciation": "เดอะ เทมเพอราเจอร์ อิส บีโลว์ ซีโร",
+                "meaning": "อุณหภูมิอยู่ต่ำกว่าศูนย์องศา"
+            },
+            {
+                "english": "It looks like a storm is coming.",
+                "pronunciation": "อิท ลุคส์ ไลค์ อะ สตอร์ม อิส คัมมิง",
+                "meaning": "ดูเหมือนพายุกำลังมา"
+            },
+            {
+                "english": "I love this cool, breezy weather.",
+                "pronunciation": "ไอ เลิฟ ดิส คูล บรีซี่ เวเธอร์",
+                "meaning": "ฉันชอบอากาศเย็นและมีลมพัดแบบนี้"
+            },
+            {
+                "english": "The weather here is unpredictable.",
+                "pronunciation": "เดอะ เวเธอร์ เฮียร์ อิส อันพรีดิคทะเบิล",
+                "meaning": "อากาศที่นี่คาดเดาไม่ได้"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้ถามสภาพอากาศ?",
+                "choices": [
+                    "It is very hot and humid.",
+                    "What is the weather like today?",
+                    "Take an umbrella just in case.",
+                    "The temperature is below zero."
+                ],
+                "answer": "What is the weather like today?"
+            },
+            {
+                "question": "'Humid' หมายความว่าอะไร?",
+                "choices": ["หนาว", "ชื้น", "แห้ง", "มีลม"],
+                "answer": "ชื้น"
+            },
+            {
+                "question": "'The weather is unpredictable.' แปลว่าอะไร?",
+                "choices": [
+                    "อากาศดีมาก",
+                    "อากาศเปลี่ยนแปลงบ่อย",
+                    "อากาศคาดเดาไม่ได้",
+                    "อากาศหนาวมาก"
+                ],
+                "answer": "อากาศคาดเดาไม่ได้"
+            }
+        ]
+    },
+    "Day 19": {
+        "title": "การพูดคุยกับเหตุการณ์ในอดีต",
+        "sentences": [
+            {
+                "english": "I visited Paris last summer.",
+                "pronunciation": "ไอ วิซิทิด แพริส ลาสท์ ซัมเมอร์",
+                "meaning": "ฉันไปเยือนปารีสเมื่อฤดูร้อนที่แล้ว"
+            },
+            {
+                "english": "She finished the project on time.",
+                "pronunciation": "ชี ฟินิชท์ เดอะ โปรเจคท์ ออน ไทม์",
+                "meaning": "เธอทำโปรเจกต์เสร็จทันเวลา"
+            },
+            {
+                "english": "We met each other in university.",
+                "pronunciation": "วี เมท อีช อาเธอร์ อิน ยูนิเวอร์ซิตี้",
+                "meaning": "เราพบกันที่มหาวิทยาลัย"
+            },
+            {
+                "english": "I did not sleep well last night.",
+                "pronunciation": "ไอ ดิด น็อท สลีพ เวล ลาสท์ ไนท์",
+                "meaning": "เมื่อคืนฉันนอนไม่หลับ"
+            },
+            {
+                "english": "He lost his wallet yesterday.",
+                "pronunciation": "ฮี ลอสท์ ฮิส วอลเล็ท เยสเตอร์เดย์",
+                "meaning": "เขาทำกระเป๋าสตางค์หายเมื่อวานนี้"
+            },
+            {
+                "english": "They moved to a new city two years ago.",
+                "pronunciation": "เดย์ มูฟด์ ทู อะ นิว ซิตี้ ทู เยียส อะโก",
+                "meaning": "พวกเขาย้ายไปเมืองใหม่เมื่อสองปีก่อน"
+            },
+            {
+                "english": "I used to work as a teacher.",
+                "pronunciation": "ไอ ยูสด์ ทู เวิร์ค แอส อะ ทีเชอร์",
+                "meaning": "ฉันเคยทำงานเป็นครูมาก่อน"
+            },
+            {
+                "english": "She called me early this morning.",
+                "pronunciation": "ชี คอลด์ มี เอิร์ลลี่ ดิส มอร์นิง",
+                "meaning": "เธอโทรหาฉันแต่เช้าวันนี้"
+            },
+            {
+                "english": "What did you do last weekend?",
+                "pronunciation": "วอท ดิด ยู ดู ลาสท์ วีคเอนด์",
+                "meaning": "คุณทำอะไรเมื่อสุดสัปดาห์ที่แล้ว?"
+            },
+            {
+                "english": "We had a great time at the party.",
+                "pronunciation": "วี แฮด อะ เกรท ไทม์ แอท เดอะ พาร์ตี้",
+                "meaning": "พวกเราสนุกมากในงานปาร์ตี้"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'I used to work as a teacher.' แปลว่าอะไร?",
+                "choices": [
+                    "ฉันกำลังทำงานเป็นครู",
+                    "ฉันอยากเป็นครู",
+                    "ฉันเคยทำงานเป็นครูมาก่อน",
+                    "ฉันจะไปเป็นครู"
+                ],
+                "answer": "ฉันเคยทำงานเป็นครูมาก่อน"
+            },
+            {
+                "question": "ประโยคใดอยู่ในรูป Past Tense (เหตุการณ์ที่ผ่านมาแล้ว)?",
+                "choices": [
+                    "I will visit Paris next year.",
+                    "She is finishing the project.",
+                    "He lost his wallet yesterday.",
+                    "They are moving to a new city."
+                ],
+                "answer": "He lost his wallet yesterday."
+            },
+            {
+                "question": "ประโยคใดใช้ถามเกี่ยวกับกิจกรรมในอดีต?",
+                "choices": [
+                    "What will you do next weekend?",
+                    "What did you do last weekend?",
+                    "What are you doing this weekend?",
+                    "What do you do every weekend?"
+                ],
+                "answer": "What did you do last weekend?"
+            }
+        ]
+    },
+    "Day 20": {
+        "title": "การพูดคุยในอนาคตและการคาดการณ์",
+        "sentences": [
+            {
+                "english": "I am going to travel abroad next year.",
+                "pronunciation": "ไอ แอม โกอิ้ง ทู แทรเวล อะบรอด เน็กซท์ เยียร์",
+                "meaning": "ฉันจะเดินทางไปต่างประเทศปีหน้า"
+            },
+            {
+                "english": "She will probably get the job.",
+                "pronunciation": "ชี วิล พรอบบะบลี่ เก็ท เดอะ จ็อบ",
+                "meaning": "เธอน่าจะได้งานนั้น"
+            },
+            {
+                "english": "I think it is going to rain later.",
+                "pronunciation": "ไอ ธิงค์ อิท อิส โกอิ้ง ทู เรน เลเทอร์",
+                "meaning": "ฉันคิดว่าต่อมาจะมีฝนตก"
+            },
+            {
+                "english": "We are planning to open a new branch.",
+                "pronunciation": "วี อาร์ แพลนนิง ทู โอเพน อะ นิว บรานช์",
+                "meaning": "เรากำลังวางแผนจะเปิดสาขาใหม่"
+            },
+            {
+                "english": "He might arrive late tonight.",
+                "pronunciation": "ฮี ไมท์ อะไรฟ์ เลท ทูไนท์",
+                "meaning": "เขาอาจมาถึงช้าคืนนี้"
+            },
+            {
+                "english": "I predict prices will rise next month.",
+                "pronunciation": "ไอ พรีดิคท์ พราย ซิส วิล ไรส์ เน็กซท์ มันธ์",
+                "meaning": "ฉันคาดว่าราคาจะสูงขึ้นเดือนหน้า"
+            },
+            {
+                "english": "They are likely to win the competition.",
+                "pronunciation": "เดย์ อาร์ ไลค์ลี่ ทู วิน เดอะ คอมพีทิชัน",
+                "meaning": "พวกเขามีแนวโน้มที่จะชนะการแข่งขัน"
+            },
+            {
+                "english": "I will call you as soon as I arrive.",
+                "pronunciation": "ไอ วิล คอล ยู แอส ซูน แอส ไอ อะไรฟ์",
+                "meaning": "ฉันจะโทรหาคุณทันทีที่มาถึง"
+            },
+            {
+                "english": "Technology will change our lives dramatically.",
+                "pronunciation": "เทคโนโลจี่ วิล เชนจ์ เอาร์ ไลฟส์ ดราแมทิคัลลี่",
+                "meaning": "เทคโนโลยีจะเปลี่ยนแปลงชีวิตของเราอย่างมาก"
+            },
+            {
+                "english": "What do you think will happen next?",
+                "pronunciation": "วอท ดู ยู ธิงค์ วิล แฮพเพน เน็กซท์",
+                "meaning": "คุณคิดว่าจะเกิดอะไรขึ้นต่อไป?"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดแสดงการคาดการณ์ในอนาคต?",
+                "choices": [
+                    "I visited Paris last summer.",
+                    "She finished the project on time.",
+                    "I predict prices will rise next month.",
+                    "We met each other in university."
+                ],
+                "answer": "I predict prices will rise next month."
+            },
+            {
+                "question": "'He might arrive late tonight.' หมายความว่าอะไร?",
+                "choices": [
+                    "เขามาถึงช้าคืนนี้",
+                    "เขาอาจมาถึงช้าคืนนี้",
+                    "เขาจะมาถึงเร็วคืนนี้",
+                    "เขาไม่มาคืนนี้"
+                ],
+                "answer": "เขาอาจมาถึงช้าคืนนี้"
+            },
+            {
+                "question": "คำใดแสดงถึงความเป็นไปได้ (possibility) ในอนาคต?",
+                "choices": ["did", "was", "might", "had"],
+                "answer": "might"
+            }
+        ]
+    },
 
 }  # จบ lessons_data
