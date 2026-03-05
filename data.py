@@ -1710,5 +1710,856 @@ lessons_data = {
             }
         ]
     },
+    
+    "Day 21": {
+        "title": "การพูดคุยเกี่ยวกับอุบัติเหตุและฉุกเฉิน",
+        "phrases": [
+            {
+                "english": "Call an ambulance immediately!",
+                "pronunciation": "คอล แอน แอมบิวแลนซ์ อิมมีเดียทลี่",
+                "meaning": "โทรเรียกรถพยาบาลทันที!"
+            },
+            {
+                "english": "There has been a car accident.",
+                "pronunciation": "แดร์ แฮส บีน อะ คาร์ แอ็คซิเดนท์",
+                "meaning": "เกิดอุบัติเหตุทางรถยนต์ขึ้น"
+            },
+            {
+                "english": "Are you hurt? Can you move?",
+                "pronunciation": "อาร์ ยู เฮิร์ท แคน ยู มูฟ",
+                "meaning": "คุณบาดเจ็บไหม? คุณขยับได้ไหม?"
+            },
+            {
+                "english": "Please stay calm and do not move.",
+                "pronunciation": "พลีส สเตย์ คาล์ม แอนด์ ดู น็อท มูฟ",
+                "meaning": "กรุณาสงบสติอารมณ์และอย่าเคลื่อนไหว"
+            },
+            {
+                "english": "I need help! This is an emergency.",
+                "pronunciation": "ไอ นีด เฮลพ์ ดิส อิส แอน อิเมอร์เจนซี่",
+                "meaning": "ฉันต้องการความช่วยเหลือ! นี่คือเหตุฉุกเฉิน"
+            },
+            {
+                "english": "The fire is spreading very quickly.",
+                "pronunciation": "เดอะ ไฟร์ อิส สเปรดดิ้ง เวรี่ ควิคลี่",
+                "meaning": "ไฟกำลังลุกลามอย่างรวดเร็ว"
+            },
+            {
+                "english": "Someone fainted on the street.",
+                "pronunciation": "ซัมวัน เฟนเทด ออน เดอะ สตรีท",
+                "meaning": "มีคนหมดสติอยู่บนถนน"
+            },
+            {
+                "english": "Please call the police right away.",
+                "pronunciation": "พลีส คอล เดอะ โพลีส ไรท์ อะเวย์",
+                "meaning": "กรุณาโทรแจ้งตำรวจทันที"
+            },
+            {
+                "english": "He is bleeding badly from his leg.",
+                "pronunciation": "ฮี อิส บลีดดิ้ง แบดลี่ ฟรอม ฮิส เล็ก",
+                "meaning": "เขากำลังเลือดออกมากจากขา"
+            },
+            {
+                "english": "We need to get out of the building now.",
+                "pronunciation": "วี นีด ทู เก็ท เอาท์ ออฟ เดอะ บิลดิ้ง เนา",
+                "meaning": "พวกเราต้องออกจากอาคารนี้ตอนนี้เลย"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้เรียกขอความช่วยเหลือในกรณีฉุกเฉิน?",
+                "choices": [
+                    "The fire is spreading very quickly.",
+                    "I need help! This is an emergency.",
+                    "He is bleeding badly from his leg.",
+                    "Someone fainted on the street."
+                ],
+                "answer": "I need help! This is an emergency."
+            },
+            {
+                "question": "'Call an ambulance immediately!' แปลว่าอะไร?",
+                "choices": [
+                    "โทรแจ้งตำรวจด่วน",
+                    "โทรเรียกรถพยาบาลทันที",
+                    "หาหมอให้ด่วน",
+                    "ออกจากอาคารทันที"
+                ],
+                "answer": "โทรเรียกรถพยาบาลทันที"
+            },
+            {
+                "question": "'Fainted' หมายความว่าอะไร?",
+                "choices": ["บาดเจ็บ", "หมดสติ", "เลือดออก", "หนีไป"],
+                "answer": "หมดสติ"
+            }
+        ]
+    },
+    "Day 22": {
+        "title": "การพูดคุยทางโทรศัพท์",
+        "phrases": [
+            {
+                "english": "Hello, may I speak to Mr. Johnson?",
+                "pronunciation": "เฮลโล เมย์ ไอ สปีค ทู มิสเตอร์ จอห์นสัน",
+                "meaning": "สวัสดี ขอพูดกับคุณจอห์นสันได้ไหม?"
+            },
+            {
+                "english": "Speaking. Who is calling, please?",
+                "pronunciation": "สปีคกิ้ง ฮู อิส คอลลิ้ง พลีส",
+                "meaning": "ฉันเองครับ ขอทราบว่าใครโทรมาครับ?"
+            },
+            {
+                "english": "Could you hold on for a moment?",
+                "pronunciation": "คุด ยู โฮลด์ ออน ฟอร์ อะ โมเมนท์",
+                "meaning": "คุณรอสักครู่ได้ไหม?"
+            },
+            {
+                "english": "I am sorry, he is not available right now.",
+                "pronunciation": "ไอ แอม ซอร์รี่ ฮี อิส น็อท อะเวลเลเบิล ไรท์ เนา",
+                "meaning": "ขอโทษ ตอนนี้เขาไม่ว่างครับ"
+            },
+            {
+                "english": "Can I leave a message for her?",
+                "pronunciation": "แคน ไอ ลีฟ อะ เมสเสจ ฟอร์ เฮอร์",
+                "meaning": "ฝากข้อความให้เธอได้ไหม?"
+            },
+            {
+                "english": "Could you ask him to call me back?",
+                "pronunciation": "คุด ยู แอสค์ ฮิม ทู คอล มี แบ็ค",
+                "meaning": "คุณช่วยบอกให้เขาโทรกลับหาฉันได้ไหม?"
+            },
+            {
+                "english": "I think we have a bad connection.",
+                "pronunciation": "ไอ ธิงค์ วี แฮฟ อะ แบด คอนเน็คชัน",
+                "meaning": "ฉันคิดว่าสัญญาณไม่ดีครับ"
+            },
+            {
+                "english": "Sorry, I dialled the wrong number.",
+                "pronunciation": "ซอร์รี่ ไอ ไดอัลด์ เดอะ รอง นัมเบอร์",
+                "meaning": "ขอโทษ ฉันกดหมายเลขผิด"
+            },
+            {
+                "english": "Please speak a little more slowly.",
+                "pronunciation": "พลีส สปีค อะ ลิตเติล มอร์ สโลว์ลี่",
+                "meaning": "กรุณาพูดช้าลงนิดนึงได้ไหม?"
+            },
+            {
+                "english": "I will call you back in five minutes.",
+                "pronunciation": "ไอ วิล คอล ยู แบ็ค อิน ไฟฟ์ มินิทส์",
+                "meaning": "ฉันจะโทรกลับหาคุณในอีกห้านาที"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "เมื่อโทรศัพท์ไปแล้วต้องการพูดกับคนอื่น ควรพูดว่าอะไร?",
+                "choices": [
+                    "I will call you back in five minutes.",
+                    "Hello, may I speak to Mr. Johnson?",
+                    "Sorry, I dialled the wrong number.",
+                    "Could you hold on for a moment?"
+                ],
+                "answer": "Hello, may I speak to Mr. Johnson?"
+            },
+            {
+                "question": "'Could you hold on for a moment?' แปลว่าอะไร?",
+                "choices": [
+                    "คุณโทรกลับมาได้ไหม?",
+                    "คุณรอสักครู่ได้ไหม?",
+                    "คุณฝากข้อความได้ไหม?",
+                    "คุณพูดช้าลงได้ไหม?"
+                ],
+                "answer": "คุณรอสักครู่ได้ไหม?"
+            },
+            {
+                "question": "'I dialled the wrong number.' หมายความว่าอะไร?",
+                "choices": [
+                    "สัญญาณไม่ดี",
+                    "โทรไม่ติด",
+                    "กดหมายเลขผิด",
+                    "ไม่มีสัญญาณ"
+                ],
+                "answer": "กดหมายเลขผิด"
+            }
+        ]
+    },
+    "Day 23": {
+        "title": "การขอและให้ความช่วยเหลือ",
+        "phrases": [
+            {
+                "english": "Could you please help me with this?",
+                "pronunciation": "คุด ยู พลีส เฮลพ์ มี วิธ ดิส",
+                "meaning": "คุณช่วยฉันเรื่องนี้ได้ไหม?"
+            },
+            {
+                "english": "Do you need a hand with that?",
+                "pronunciation": "ดู ยู นีด อะ แฮนด์ วิธ แดท",
+                "meaning": "คุณต้องการความช่วยเหลือกับสิ่งนั้นไหม?"
+            },
+            {
+                "english": "Sure, I would be happy to help.",
+                "pronunciation": "ชัวร์ ไอ วูด บี แฮปปี้ ทู เฮลพ์",
+                "meaning": "แน่นอน ฉันยินดีช่วยเสมอ"
+            },
+            {
+                "english": "Is there anything I can do for you?",
+                "pronunciation": "อิส แดร์ เอนนีธิง ไอ แคน ดู ฟอร์ ยู",
+                "meaning": "มีอะไรที่ฉันทำให้คุณได้บ้างไหม?"
+            },
+            {
+                "english": "Would you mind carrying this bag for me?",
+                "pronunciation": "วูด ยู ไมนด์ แคร์รีอิง ดิส แบ็ก ฟอร์ มี",
+                "meaning": "คุณรังเกียจที่จะถือกระเป๋าใบนี้ให้ฉันไหม?"
+            },
+            {
+                "english": "I am afraid I cannot help right now.",
+                "pronunciation": "ไอ แอม อะเฟรด ไอ แคนนอท เฮลพ์ ไรท์ เนา",
+                "meaning": "ฉันเกรงว่าตอนนี้ไม่สามารถช่วยได้"
+            },
+            {
+                "english": "Let me know if you need anything.",
+                "pronunciation": "เล็ท มี โน อิฟ ยู นีด เอนนีธิง",
+                "meaning": "บอกฉันด้วยนะถ้าต้องการอะไร"
+            },
+            {
+                "english": "Thank you so much for your help.",
+                "pronunciation": "แธงค์ ยู โซ มัช ฟอร์ ยัวร์ เฮลพ์",
+                "meaning": "ขอบคุณมากสำหรับความช่วยเหลือ"
+            },
+            {
+                "english": "I really appreciate your support.",
+                "pronunciation": "ไอ เรียลลี่ อะพรีชิเอท ยัวร์ ซัพพอร์ท",
+                "meaning": "ฉันซาบซึ้งในความช่วยเหลือของคุณมาก"
+            },
+            {
+                "english": "No problem at all. Glad I could help.",
+                "pronunciation": "โน โปรบเล็ม แอท ออล แกลด ไอ คุด เฮลพ์",
+                "meaning": "ไม่มีปัญหาเลย ดีใจที่ช่วยได้"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้เสนอความช่วยเหลืออย่างเป็นมิตร?",
+                "choices": [
+                    "Thank you so much for your help.",
+                    "I am afraid I cannot help right now.",
+                    "Do you need a hand with that?",
+                    "I really appreciate your support."
+                ],
+                "answer": "Do you need a hand with that?"
+            },
+            {
+                "question": "'No problem at all. Glad I could help.' แปลว่าอะไร?",
+                "choices": [
+                    "ขอโทษที่ช่วยไม่ได้",
+                    "ไม่มีปัญหาเลย ดีใจที่ช่วยได้",
+                    "ฉันไม่ว่างช่วยตอนนี้",
+                    "ขอบคุณที่ขอให้ช่วย"
+                ],
+                "answer": "ไม่มีปัญหาเลย ดีใจที่ช่วยได้"
+            },
+            {
+                "question": "หากต้องการปฏิเสธการช่วยเหลืออย่างสุภาพ ควรพูดว่าอะไร?",
+                "choices": [
+                    "Sure, I would be happy to help.",
+                    "Let me know if you need anything.",
+                    "I am afraid I cannot help right now.",
+                    "Is there anything I can do for you?"
+                ],
+                "answer": "I am afraid I cannot help right now."
+            }
+        ]
+    },
+    "Day 24": {
+        "title": "การเชื้อเชิญและการนัดหมาย",
+        "phrases": [
+            {
+                "english": "Would you like to join us for dinner?",
+                "pronunciation": "วูด ยู ไลค์ ทู จอยน์ อัส ฟอร์ ดินเนอร์",
+                "meaning": "คุณอยากมาร่วมรับประทานอาหารเย็นกับพวกเราไหม?"
+            },
+            {
+                "english": "That sounds great! What time?",
+                "pronunciation": "แดท เซาดส์ เกรท วอท ไทม์",
+                "meaning": "ฟังดูดีมาก! กี่โมงดีครับ?"
+            },
+            {
+                "english": "I am sorry, I already have plans.",
+                "pronunciation": "ไอ แอม ซอร์รี่ ไอ ออลเรดดี้ แฮฟ แพลนส์",
+                "meaning": "ขอโทษ ฉันมีแผนอื่นอยู่แล้ว"
+            },
+            {
+                "english": "Can we reschedule to next week?",
+                "pronunciation": "แคน วี รีเชดยูล ทู เน็กซท์ วีค",
+                "meaning": "เราเลื่อนไปอาทิตย์หน้าได้ไหม?"
+            },
+            {
+                "english": "Let us meet at the coffee shop at three.",
+                "pronunciation": "เล็ท อัส มีท แอท เดอะ คอฟฟี่ ชอป แอท ธรี",
+                "meaning": "เราเจอกันที่ร้านกาแฟตอนบ่ายสามนะ"
+            },
+            {
+                "english": "I would love to come. Count me in!",
+                "pronunciation": "ไอ วูด เลิฟ ทู คัม เคาท์ มี อิน",
+                "meaning": "ฉันอยากมาด้วย นับรวมฉันด้วยนะ!"
+            },
+            {
+                "english": "Are you free this Saturday evening?",
+                "pronunciation": "อาร์ ยู ฟรี ดิส แซทเทอร์เดย์ อีฟนิ่ง",
+                "meaning": "คุณว่างเย็นวันเสาร์นี้ไหม?"
+            },
+            {
+                "english": "Do not forget our appointment tomorrow.",
+                "pronunciation": "ดู น็อท ฟอร์เก็ท เอาร์ อะพอยท์เมนท์ ทูมอร์โรว์",
+                "meaning": "อย่าลืมนัดหมายของเราพรุ่งนี้นะ"
+            },
+            {
+                "english": "I will confirm the details by tonight.",
+                "pronunciation": "ไอ วิล คอนเฟิร์ม เดอะ ดีเทลส์ บาย ทูไนท์",
+                "meaning": "ฉันจะยืนยันรายละเอียดภายในคืนนี้"
+            },
+            {
+                "english": "Unfortunately, I have to cancel our meeting.",
+                "pronunciation": "อันฟอร์ชูนิทลี่ ไอ แฮฟ ทู แคนเซิล เอาร์ มีทติ้ง",
+                "meaning": "น่าเสียดาย ฉันต้องยกเลิกการประชุมของเรา"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้ตอบรับคำเชิญอย่างกระตือรือร้น?",
+                "choices": [
+                    "I am sorry, I already have plans.",
+                    "Can we reschedule to next week?",
+                    "I would love to come. Count me in!",
+                    "Unfortunately, I have to cancel our meeting."
+                ],
+                "answer": "I would love to come. Count me in!"
+            },
+            {
+                "question": "'Can we reschedule?' แปลว่าอะไร?",
+                "choices": [
+                    "เราตกลงกันได้ไหม?",
+                    "เราเลื่อนนัดได้ไหม?",
+                    "เราพบกันได้ไหม?",
+                    "เราติดต่อกันได้ไหม?"
+                ],
+                "answer": "เราเลื่อนนัดได้ไหม?"
+            },
+            {
+                "question": "ประโยคใดใช้ยกเลิกนัดหมาย?",
+                "choices": [
+                    "Do not forget our appointment tomorrow.",
+                    "Let us meet at the coffee shop at three.",
+                    "Are you free this Saturday evening?",
+                    "Unfortunately, I have to cancel our meeting."
+                ],
+                "answer": "Unfortunately, I have to cancel our meeting."
+            }
+        ]
+    },
+    "Day 25": {
+        "title": "การแสดงความยินดี",
+        "phrases": [
+            {
+                "english": "Congratulations on your promotion!",
+                "pronunciation": "คอนแกรทชูเลชันส์ ออน ยัวร์ โพรโมชัน",
+                "meaning": "ขอแสดงความยินดีกับการเลื่อนตำแหน่งของคุณ!"
+            },
+            {
+                "english": "Well done! You deserve it.",
+                "pronunciation": "เวล ดัน ยู ดีเซิร์ฟ อิท",
+                "meaning": "เยี่ยมมาก! คุณสมควรได้รับสิ่งนี้"
+            },
+            {
+                "english": "Happy birthday! I hope you have a wonderful day.",
+                "pronunciation": "แฮปปี้ เบิร์ธเดย์ ไอ โฮพ ยู แฮฟ อะ วันเดอร์ฟูล เดย์",
+                "meaning": "สุขสันต์วันเกิด! หวังว่าคุณจะมีวันที่แสนวิเศษ"
+            },
+            {
+                "english": "I am so happy for you!",
+                "pronunciation": "ไอ แอม โซ แฮปปี้ ฟอร์ ยู",
+                "meaning": "ฉันดีใจมากสำหรับคุณเลย!"
+            },
+            {
+                "english": "Congratulations on your wedding!",
+                "pronunciation": "คอนแกรทชูเลชันส์ ออน ยัวร์ เวดดิ้ง",
+                "meaning": "ขอแสดงความยินดีในวันแต่งงานของคุณ!"
+            },
+            {
+                "english": "You must be so proud of yourself.",
+                "pronunciation": "ยู มัสท์ บี โซ พราวด์ ออฟ ยัวร์เซลฟ์",
+                "meaning": "คุณต้องภูมิใจในตัวเองมากเลยนะ"
+            },
+            {
+                "english": "That is such an amazing achievement!",
+                "pronunciation": "แดท อิส ซัช แอน อะเมซิ่ง อะชีฟเมนท์",
+                "meaning": "นั่นเป็นความสำเร็จที่น่าทึ่งมากเลย!"
+            },
+            {
+                "english": "Three cheers for the winner!",
+                "pronunciation": "ธรี เชียร์ส ฟอร์ เดอะ วินเนอร์",
+                "meaning": "ไชโยสามครั้งให้ผู้ชนะ!"
+            },
+            {
+                "english": "May all your dreams come true.",
+                "pronunciation": "เมย์ ออล ยัวร์ ดรีมส์ คัม ทรู",
+                "meaning": "ขอให้ความฝันทั้งหมดของคุณเป็นจริง"
+            },
+            {
+                "english": "Wishing you all the best in your new job.",
+                "pronunciation": "วิชชิ่ง ยู ออล เดอะ เบสท์ อิน ยัวร์ นิว จ็อบ",
+                "meaning": "ขอให้โชคดีที่สุดในงานใหม่ของคุณ"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'Well done! You deserve it.' แปลว่าอะไร?",
+                "choices": [
+                    "ขอแสดงความยินดี คุณโชคดีมาก",
+                    "เยี่ยมมาก! คุณสมควรได้รับสิ่งนี้",
+                    "ยินดีด้วย คุณพยายามมากพอแล้ว",
+                    "ขอบคุณ คุณช่วยฉันได้มาก"
+                ],
+                "answer": "เยี่ยมมาก! คุณสมควรได้รับสิ่งนี้"
+            },
+            {
+                "question": "ประโยคใดใช้อวยพรวันเกิด?",
+                "choices": [
+                    "Congratulations on your promotion!",
+                    "May all your dreams come true.",
+                    "Happy birthday! I hope you have a wonderful day.",
+                    "Three cheers for the winner!"
+                ],
+                "answer": "Happy birthday! I hope you have a wonderful day."
+            },
+            {
+                "question": "'May all your dreams come true.' หมายความว่าอะไร?",
+                "choices": [
+                    "ขอให้นอนหลับฝันดี",
+                    "ขอให้ความฝันทั้งหมดของคุณเป็นจริง",
+                    "ขอให้คุณประสบความสำเร็จในหน้าที่การงาน",
+                    "ขอให้คุณมีความสุขในวันนี้"
+                ],
+                "answer": "ขอให้ความฝันทั้งหมดของคุณเป็นจริง"
+            }
+        ]
+    },
+    "Day 26": {
+        "title": "การให้กำลังใจคนอื่น",
+        "phrases": [
+            {
+                "english": "Do not give up. You can do it!",
+                "pronunciation": "ดู น็อท กิฟ อัพ ยู แคน ดู อิท",
+                "meaning": "อย่ายอมแพ้ คุณทำได้!"
+            },
+            {
+                "english": "Keep going. You are almost there.",
+                "pronunciation": "คีพ โกอิ้ง ยู อาร์ ออลโมสท์ แดร์",
+                "meaning": "สู้ต่อไป คุณเกือบถึงแล้ว"
+            },
+            {
+                "english": "Believe in yourself and your abilities.",
+                "pronunciation": "บีลีฟ อิน ยัวร์เซลฟ์ แอนด์ ยัวร์ อะบิลิทีส",
+                "meaning": "เชื่อมั่นในตัวเองและความสามารถของคุณ"
+            },
+            {
+                "english": "Everyone makes mistakes. That is how we learn.",
+                "pronunciation": "เอฟรีวัน เมคส์ มิสเทคส์ แดท อิส เฮา วี เลิร์น",
+                "meaning": "ทุกคนทำผิดพลาด นั่นแหละคือวิธีที่เราเรียนรู้"
+            },
+            {
+                "english": "I know you can handle this.",
+                "pronunciation": "ไอ โน ยู แคน แฮนเดิล ดิส",
+                "meaning": "ฉันรู้ว่าคุณรับมือกับเรื่องนี้ได้"
+            },
+            {
+                "english": "Take it one step at a time.",
+                "pronunciation": "เทค อิท วัน สเท็พ แอท อะ ไทม์",
+                "meaning": "ค่อยๆ ทำทีละก้าวนะ"
+            },
+            {
+                "english": "You have come so far. Do not stop now.",
+                "pronunciation": "ยู แฮฟ คัม โซ ฟาร์ ดู น็อท สต็อพ เนา",
+                "meaning": "คุณมาไกลมากแล้ว อย่าหยุดตอนนี้นะ"
+            },
+            {
+                "english": "I am always here for you.",
+                "pronunciation": "ไอ แอม ออลเวย์ส เฮียร์ ฟอร์ ยู",
+                "meaning": "ฉันอยู่ตรงนี้เสมอสำหรับคุณ"
+            },
+            {
+                "english": "Things will get better soon. Stay strong.",
+                "pronunciation": "ธิงส์ วิล เก็ท เบทเทอร์ ซูน สเตย์ สตรอง",
+                "meaning": "ทุกอย่างจะดีขึ้นเร็วๆ นี้ อดทนไว้นะ"
+            },
+            {
+                "english": "You are stronger than you think.",
+                "pronunciation": "ยู อาร์ สตรอง เงอร์ แดน ยู ธิงค์",
+                "meaning": "คุณเข้มแข็งกว่าที่คุณคิดนะ"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้ให้กำลังใจให้คนอื่นสู้ต่อไป?",
+                "choices": [
+                    "I am always here for you.",
+                    "Keep going. You are almost there.",
+                    "Things will get better soon.",
+                    "Everyone makes mistakes."
+                ],
+                "answer": "Keep going. You are almost there."
+            },
+            {
+                "question": "'Take it one step at a time.' แปลว่าอะไร?",
+                "choices": [
+                    "ทำทุกอย่างให้เสร็จภายในครั้งเดียว",
+                    "อย่ารีบร้อนเกินไป",
+                    "ค่อยๆ ทำทีละก้าวนะ",
+                    "ลองทำดูสักครั้ง"
+                ],
+                "answer": "ค่อยๆ ทำทีละก้าวนะ"
+            },
+            {
+                "question": "'You are stronger than you think.' หมายความว่าอะไร?",
+                "choices": [
+                    "คุณฉลาดกว่าที่คิด",
+                    "คุณเก่งกว่าคนอื่น",
+                    "คุณเข้มแข็งกว่าที่คุณคิดนะ",
+                    "คุณทำสิ่งต่างๆ ได้ดีกว่านี้"
+                ],
+                "answer": "คุณเข้มแข็งกว่าที่คุณคิดนะ"
+            }
+        ]
+    },
+    "Day 27": {
+        "title": "การให้คำแนะนำ",
+        "phrases": [
+            {
+                "english": "If I were you, I would talk to your boss.",
+                "pronunciation": "อิฟ ไอ เวอร์ ยู ไอ วูด ทอล์ค ทู ยัวร์ บอส",
+                "meaning": "ถ้าฉันเป็นคุณ ฉันจะคุยกับหัวหน้าของคุณ"
+            },
+            {
+                "english": "You should get more sleep every night.",
+                "pronunciation": "ยู ชุด เก็ท มอร์ สลีพ เอฟรี่ ไนท์",
+                "meaning": "คุณควรนอนหลับให้มากขึ้นทุกคืน"
+            },
+            {
+                "english": "I suggest you try a different approach.",
+                "pronunciation": "ไอ ซัดเจสท์ ยู ทราย อะ ดิฟเฟอเรนท์ อะโพรช",
+                "meaning": "ฉันแนะนำให้คุณลองวิธีการที่แตกต่างออกไป"
+            },
+            {
+                "english": "Have you considered asking for help?",
+                "pronunciation": "แฮฟ ยู คอนซิเดอร์ด แอสกิ้ง ฟอร์ เฮลพ์",
+                "meaning": "คุณเคยคิดจะขอความช่วยเหลือบ้างไหม?"
+            },
+            {
+                "english": "It might be a good idea to save more money.",
+                "pronunciation": "อิท ไมท์ บี อะ กุด ไอเดีย ทู เซฟ มอร์ มันนี่",
+                "meaning": "การออมเงินให้มากขึ้นอาจเป็นความคิดที่ดี"
+            },
+            {
+                "english": "Why don't you take a break and relax?",
+                "pronunciation": "วาย ดอนท์ ยู เทค อะ เบรค แอนด์ รีแลกซ์",
+                "meaning": "ทำไมคุณไม่หยุดพักและผ่อนคลายดูล่ะ?"
+            },
+            {
+                "english": "You had better see a doctor soon.",
+                "pronunciation": "ยู แฮด เบทเทอร์ ซี อะ ด็อคเตอร์ ซูน",
+                "meaning": "คุณควรไปพบแพทย์เร็วๆ นี้นะ"
+            },
+            {
+                "english": "It is best to plan ahead of time.",
+                "pronunciation": "อิท อิส เบสท์ ทู แพลน อะเฮด ออฟ ไทม์",
+                "meaning": "ดีที่สุดที่จะวางแผนล่วงหน้าไว้ก่อน"
+            },
+            {
+                "english": "I strongly recommend reading this book.",
+                "pronunciation": "ไอ สตรองลี่ เร็คคอมเมนด์ รีดดิ้ง ดิส บุค",
+                "meaning": "ฉันแนะนำอย่างยิ่งให้อ่านหนังสือเล่มนี้"
+            },
+            {
+                "english": "Try not to worry too much about it.",
+                "pronunciation": "ทราย น็อท ทู วอร์รี่ ทู มัช อะเบาท์ อิท",
+                "meaning": "พยายามอย่ากังวลเรื่องนั้นมากเกินไป"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้ให้คำแนะนำอย่างแข็งกร้าวที่สุด?",
+                "choices": [
+                    "You should get more sleep.",
+                    "Have you considered asking for help?",
+                    "You had better see a doctor soon.",
+                    "Why don't you take a break?"
+                ],
+                "answer": "You had better see a doctor soon."
+            },
+            {
+                "question": "'If I were you, I would talk to your boss.' แปลว่าอะไร?",
+                "choices": [
+                    "ฉันอยากให้คุณคุยกับหัวหน้า",
+                    "ถ้าฉันเป็นคุณ ฉันจะคุยกับหัวหน้าของคุณ",
+                    "คุณควรบอกหัวหน้าให้รู้",
+                    "ฉันจะช่วยคุณคุยกับหัวหน้า"
+                ],
+                "answer": "ถ้าฉันเป็นคุณ ฉันจะคุยกับหัวหน้าของคุณ"
+            },
+            {
+                "question": "คำว่า 'suggest' หมายความว่าอะไร?",
+                "choices": ["สั่ง", "ห้าม", "แนะนำ", "อนุญาต"],
+                "answer": "แนะนำ"
+            }
+        ]
+    },
+    "Day 28": {
+        "title": "การแสดงความคิดเห็น",
+        "phrases": [
+            {
+                "english": "In my opinion, this plan needs more work.",
+                "pronunciation": "อิน มาย โอพีเนียน ดิส แพลน นีดส์ มอร์ เวิร์ค",
+                "meaning": "ในความคิดเห็นของฉัน แผนนี้ต้องการการปรับปรุงเพิ่มเติม"
+            },
+            {
+                "english": "I think we should reconsider this decision.",
+                "pronunciation": "ไอ ธิงค์ วี ชุด รีคอนซิเดอร์ ดิส ดีซิชัน",
+                "meaning": "ฉันคิดว่าเราควรพิจารณาการตัดสินใจนี้ใหม่"
+            },
+            {
+                "english": "From my point of view, it is a fair deal.",
+                "pronunciation": "ฟรอม มาย พอยท์ ออฟ วิว อิท อิส อะ แฟร์ ดีล",
+                "meaning": "จากมุมมองของฉัน มันเป็นข้อตกลงที่ยุติธรรม"
+            },
+            {
+                "english": "I agree with what you are saying.",
+                "pronunciation": "ไอ อะกรี วิธ วอท ยู อาร์ เซอิ้ง",
+                "meaning": "ฉันเห็นด้วยกับสิ่งที่คุณพูด"
+            },
+            {
+                "english": "I am not sure I agree with that.",
+                "pronunciation": "ไอ แอม น็อท ชัวร์ ไอ อะกรี วิธ แดท",
+                "meaning": "ฉันไม่แน่ใจว่าเห็นด้วยกับเรื่องนั้น"
+            },
+            {
+                "english": "That is an interesting point of view.",
+                "pronunciation": "แดท อิส แอน อินเทอเรสทิ้ง พอยท์ ออฟ วิว",
+                "meaning": "นั่นเป็นมุมมองที่น่าสนใจ"
+            },
+            {
+                "english": "Personally, I prefer the second option.",
+                "pronunciation": "เพอร์เซนอัลลี่ ไอ พรีเฟอร์ เดอะ เซคเคิ่นด์ ออพชัน",
+                "meaning": "โดยส่วนตัวแล้ว ฉันชอบตัวเลือกที่สองมากกว่า"
+            },
+            {
+                "english": "I see your point, but I disagree.",
+                "pronunciation": "ไอ ซี ยัวร์ พอยท์ บัท ไอ ดิสอะกรี",
+                "meaning": "ฉันเข้าใจประเด็นของคุณ แต่ฉันไม่เห็นด้วย"
+            },
+            {
+                "english": "As far as I am concerned, safety comes first.",
+                "pronunciation": "แอส ฟาร์ แอส ไอ แอม คอนเซิร์นด์ เซฟตี้ คัมส์ เฟิร์สท์",
+                "meaning": "เท่าที่ฉันเกี่ยวข้อง ความปลอดภัยมาก่อน"
+            },
+            {
+                "english": "I think we can all agree on that.",
+                "pronunciation": "ไอ ธิงค์ วี แคน ออล อะกรี ออน แดท",
+                "meaning": "ฉันคิดว่าเราทุกคนเห็นด้วยกับเรื่องนั้นได้"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดใช้แสดงความไม่เห็นด้วยอย่างสุภาพ?",
+                "choices": [
+                    "I agree with what you are saying.",
+                    "I think we can all agree on that.",
+                    "I see your point, but I disagree.",
+                    "That is an interesting point of view."
+                ],
+                "answer": "I see your point, but I disagree."
+            },
+            {
+                "question": "'In my opinion' หมายความว่าอะไร?",
+                "choices": [
+                    "ตามที่ผู้เชี่ยวชาญบอก",
+                    "ในความคิดเห็นของฉัน",
+                    "จากหลักฐานที่มี",
+                    "ตามที่คุณบอก"
+                ],
+                "answer": "ในความคิดเห็นของฉัน"
+            },
+            {
+                "question": "ประโยคใดแสดงการเห็นด้วยอย่างชัดเจน?",
+                "choices": [
+                    "I am not sure I agree with that.",
+                    "I see your point, but I disagree.",
+                    "I agree with what you are saying.",
+                    "Personally, I prefer the second option."
+                ],
+                "answer": "I agree with what you are saying."
+            }
+        ]
+    },
+    "Day 29": {
+        "title": "การพูดคุยกับญาติพี่น้อง",
+        "phrases": [
+            {
+                "english": "How is everyone in the family doing?",
+                "pronunciation": "เฮา อิส เอฟรีวัน อิน เดอะ แฟมิลี่ ดูอิ้ง",
+                "meaning": "ทุกคนในครอบครัวเป็นยังไงบ้าง?"
+            },
+            {
+                "english": "My grandmother lives with us at home.",
+                "pronunciation": "มาย แกรนด์มาเธอร์ ลิฟส์ วิธ อัส แอท โฮม",
+                "meaning": "คุณยายของฉันอาศัยอยู่กับเราที่บ้าน"
+            },
+            {
+                "english": "I have two brothers and one sister.",
+                "pronunciation": "ไอ แฮฟ ทู บราเธอร์ส แอนด์ วัน ซิสเทอร์",
+                "meaning": "ฉันมีพี่ชายสองคนและน้องสาวหนึ่งคน"
+            },
+            {
+                "english": "My parents got married thirty years ago.",
+                "pronunciation": "มาย แพเรนท์ส ก็อท แมร์ริด เทอร์ตี้ เยียส อะโก",
+                "meaning": "พ่อแม่ของฉันแต่งงานกันเมื่อสามสิบปีก่อน"
+            },
+            {
+                "english": "We get together every New Year.",
+                "pronunciation": "วี เก็ท ทูเกเธอร์ เอฟรี่ นิว เยียร์",
+                "meaning": "พวกเรามารวมตัวกันทุกปีใหม่"
+            },
+            {
+                "english": "My cousin is visiting us this weekend.",
+                "pronunciation": "มาย คัซซิน อิส วิซิทิง อัส ดิส วีคเอนด์",
+                "meaning": "ลูกพี่ลูกน้องของฉันจะมาเยี่ยมสุดสัปดาห์นี้"
+            },
+            {
+                "english": "She takes after her mother in many ways.",
+                "pronunciation": "ชี เทคส์ อาฟเทอร์ เฮอร์ มาเธอร์ อิน เมนนี่ เวย์ส",
+                "meaning": "เธอเหมือนแม่ของเธอในหลายๆ ด้าน"
+            },
+            {
+                "english": "We grew up in a small town together.",
+                "pronunciation": "วี กรู อัพ อิน อะ สมอล ทาวน์ ทูเกเธอร์",
+                "meaning": "พวกเราเติบโตขึ้นมาในเมืองเล็กๆ ด้วยกัน"
+            },
+            {
+                "english": "Family comes first, no matter what.",
+                "pronunciation": "แฟมิลี่ คัมส์ เฟิร์สท์ โน แมทเทอร์ วอท",
+                "meaning": "ครอบครัวมาก่อนเสมอ ไม่ว่าจะเกิดอะไรขึ้น"
+            },
+            {
+                "english": "I miss spending time with my relatives.",
+                "pronunciation": "ไอ มิส สเพนดิ้ง ไทม์ วิธ มาย เรลาทิฟส์",
+                "meaning": "ฉันคิดถึงการใช้เวลากับญาติๆ ของฉัน"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "'She takes after her mother.' แปลว่าอะไร?",
+                "choices": [
+                    "เธอดูแลแม่ของเธอ",
+                    "เธอเหมือนแม่ของเธอ",
+                    "เธอตามแม่ไปทุกที่",
+                    "เธอเรียนรู้จากแม่"
+                ],
+                "answer": "เธอเหมือนแม่ของเธอ"
+            },
+            {
+                "question": "คำว่า 'relatives' หมายถึงอะไร?",
+                "choices": ["เพื่อนสนิท", "เพื่อนร่วมงาน", "ญาติพี่น้อง", "เพื่อนบ้าน"],
+                "answer": "ญาติพี่น้อง"
+            },
+            {
+                "question": "ประโยคใดบอกถึงการรวมตัวของครอบครัว?",
+                "choices": [
+                    "My grandmother lives with us at home.",
+                    "I have two brothers and one sister.",
+                    "We get together every New Year.",
+                    "Family comes first, no matter what."
+                ],
+                "answer": "We get together every New Year."
+            }
+        ]
+    },
+    "Day 30": {
+        "title": "การใช้ชีวิตประจำวันทั่วไป",
+        "phrases": [
+            {
+                "english": "I usually wake up at seven in the morning.",
+                "pronunciation": "ไอ ยูชวลลี่ เวค อัพ แอท เซเวน อิน เดอะ มอร์นิง",
+                "meaning": "ฉันมักตื่นนอนตอนเจ็ดโมงเช้าเป็นประจำ"
+            },
+            {
+                "english": "I brush my teeth and wash my face first.",
+                "pronunciation": "ไอ บรัช มาย ทีธ แอนด์ วอช มาย เฟส เฟิร์สท์",
+                "meaning": "ฉันแปรงฟันและล้างหน้าก่อนเป็นอันดับแรก"
+            },
+            {
+                "english": "I make breakfast before going to work.",
+                "pronunciation": "ไอ เมค เบรคฟาสท์ บีฟอร์ โกอิ้ง ทู เวิร์ค",
+                "meaning": "ฉันทำอาหารเช้าก่อนไปทำงาน"
+            },
+            {
+                "english": "I take the bus to the office every day.",
+                "pronunciation": "ไอ เทค เดอะ บัส ทู ดิ ออฟฟิส เอฟรี่ เดย์",
+                "meaning": "ฉันนั่งรถเมล์ไปสำนักงานทุกวัน"
+            },
+            {
+                "english": "I usually have lunch at my desk.",
+                "pronunciation": "ไอ ยูชวลลี่ แฮฟ ลันช์ แอท มาย เดสค์",
+                "meaning": "ฉันมักกินอาหารกลางวันที่โต๊ะทำงาน"
+            },
+            {
+                "english": "After work, I go to the gym.",
+                "pronunciation": "อาฟเทอร์ เวิร์ค ไอ โก ทู เดอะ จิม",
+                "meaning": "หลังเลิกงาน ฉันไปออกกำลังกายที่ฟิตเนส"
+            },
+            {
+                "english": "I cook dinner at home most evenings.",
+                "pronunciation": "ไอ คุค ดินเนอร์ แอท โฮม โมสท์ อีฟนิ่งส์",
+                "meaning": "ส่วนใหญ่ฉันทำอาหารเย็นที่บ้านเอง"
+            },
+            {
+                "english": "I spend time reading before bed.",
+                "pronunciation": "ไอ สเพนด์ ไทม์ รีดดิ้ง บีฟอร์ เบด",
+                "meaning": "ฉันใช้เวลาอ่านหนังสือก่อนนอน"
+            },
+            {
+                "english": "I try to go to bed by ten o'clock.",
+                "pronunciation": "ไอ ทราย ทู โก ทู เบด บาย เทน โอคล็อค",
+                "meaning": "ฉันพยายามเข้านอนก่อนสี่ทุ่ม"
+            },
+            {
+                "english": "Having a routine helps me stay organised.",
+                "pronunciation": "แฮวิง อะ รูทีน เฮลพ์ส มี สเตย์ ออร์กาไนซ์ด",
+                "meaning": "การมีกิจวัตรช่วยให้ฉันมีระเบียบมากขึ้น"
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "ประโยคใดบรรยายกิจกรรมยามเช้า?",
+                "choices": [
+                    "After work, I go to the gym.",
+                    "I spend time reading before bed.",
+                    "I brush my teeth and wash my face first.",
+                    "Having a routine helps me stay organised."
+                ],
+                "answer": "I brush my teeth and wash my face first."
+            },
+            {
+                "question": "'Having a routine helps me stay organised.' แปลว่าอะไร?",
+                "choices": [
+                    "การพักผ่อนช่วยให้มีสุขภาพดี",
+                    "การมีกิจวัตรช่วยให้ฉันมีระเบียบมากขึ้น",
+                    "การทำงานอย่างสม่ำเสมอช่วยให้ประสบความสำเร็จ",
+                    "การวางแผนล่วงหน้าช่วยลดความเครียด"
+                ],
+                "answer": "การมีกิจวัตรช่วยให้ฉันมีระเบียบมากขึ้น"
+            },
+            {
+                "question": "คำว่า 'routine' หมายถึงอะไร?",
+                "choices": ["ตารางเวลา", "กิจวัตรประจำวัน", "นิสัย", "กฎระเบียบ"],
+                "answer": "กิจวัตรประจำวัน"
+            }
+        ]
+    },
 
 }  # จบ lessons_data
