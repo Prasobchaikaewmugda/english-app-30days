@@ -19,23 +19,6 @@ st.set_page_config(
     page_title="1 Year to Fluent",
     page_icon="🏆",
     layout="wide"
-    # --- ชุดคำสั่งแก้ตัวหนังสือล่องหน (บังคับสีดำบนพื้นขาว) ---
-st.markdown("""
-    <style>
-    .phrase-card, .quiz-card, [data-testid="stExpander"] div {
-        background-color: #FFFFFF !important;
-        color: #000000 !important;
-        padding: 15px !important;
-        border-radius: 10px !important;
-        margin-bottom: 10px !important;
-        border: 1px solid #EEEEEE !important;
-    }
-    /* บังคับให้ตัวหนังสือในกล่องทุกชนิดเป็นสีดำ */
-    .phrase-card *, .quiz-card * {
-        color: #000000 !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
 )
 
 # CSS ตกแต่งหน้าตาแอปให้สวยงามและโค้งมน
@@ -243,16 +226,32 @@ st.divider()
 # 8. แสดงประโยคบทเรียน (10 ประโยค)
 # ============================================================
 
-st.write("### 📚 ประโยคที่ต้องรู้ในวันนี้:")
-for i, phrase in enumerate(lesson["phrases"]):
-    # กล่องประโยคสีขาว + บังคับตัวหนังสือสีดำที่แท็ก <p> โดยตรง
-    st.markdown(f"""
-    <div style="background-color: white; padding: 15px; border-radius: 10px; margin-bottom: 10px;">
-        <p style="color: black !important; font-weight: bold; font-size: 18px; margin: 0;">
-            {i + 1}. {phrase['english']}
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+for i, phrase in enumerate(phrases):
+
+    col_text, col_audio = st.columns([10, 1])
+
+    with col_text:
+        st.markdown(f"""
+        <div class="phrase-card">
+            <strong>{i + 1}. {phrase['english']}</strong>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_audio:
+        # ปุ่ม 🔊 — key ไม่ซ้ำกันทุกปุ่ม
+        if st.button("🔊", key=f"audio_{selected_day}_{i}", help="ฟังการออกเสียง"):
+            audio_bytes = get_audio_bytes(phrase["english"])
+            st.audio(audio_bytes, format="audio/mp3")
+
+    with st.expander("👁️ ดูคำอ่านและคำแปล"):
+        col_l, col_r = st.columns(2)
+        with col_l:
+            st.info(f"🔤 **คำอ่าน**\n\n{phrase['pronunciation']}")
+        with col_r:
+            st.success(f"✅ **คำแปล**\n\n{phrase['meaning']}")
+
+    st.write("")
+
 
 # ============================================================
 # 9. Quiz Section (3 ข้อ)
@@ -265,41 +264,21 @@ with col_quiz_h:
     st.subheader("🧠 แบบทดสอบประจำบท")
 with col_xp_h:
     st.markdown("""
-    # --- ชุดคำสั่งไม้ตายแก้ตัวหนังสือล่องหน ---
-st.markdown("""
-    <style>
-    /* บังคับสีตัวหนังสือในกล่อง Quiz และ Phrase ให้เป็นสีดำสนิท 100% */
-    .phrase-card, .quiz-card, [data-testid="stExpander"] {
-        background-color: #FFFFFF !important;
-        border: 2px solid #EEEEEE !important;
-        border-radius: 12px !important;
-        padding: 20px !important;
-        margin-bottom: 15px !important;
-    }
-
-    /* สั่งการให้ตัวหนังสือทุกตัวที่อยู่ในกล่องเหล่านี้เป็นสีดำ */
-    .phrase-card *, .quiz-card *, [data-testid="stExpander"] * {
-        color: #000000 !important;
-        -webkit-text-fill-color: #000000 !important;
-    }
-
-    /* แก้ปัญหาปุ่มกดและ Radio Button ให้มองเห็นชัดขึ้น */
-    div[data-testid="stMarkdownContainer"] p {
-        color: inherit;
-    }
-    </style>
+    <div style='background:linear-gradient(135deg,#f6d365,#fda085);
+                border-radius:10px; padding:10px 14px; text-align:center; margin-top:8px;'>
+        <strong style='color:#1a1a2e; font-size:1rem;'>🏆 ผ่านทุกข้อ = +50 XP</strong>
+    </div>
     """, unsafe_allow_html=True)
 
 st.write("เลือกคำตอบให้ครบทั้ง 3 ข้อ แล้วกด **'ตรวจคำตอบ'**")
 st.write("")
 
 for q_idx, quiz in enumerate(quiz_list):
-    # กล่องควิซสีขาว + บังคับตัวหนังสือสีดำที่แท็ก <p> โดยตรง
+
+    # กล่องคำถามสีม่วงอ่อน
     st.markdown(f"""
-    <div style="background-color: white; padding: 15px; border-radius: 10px; margin-bottom: 10px;">
-        <p style="color: black !important; font-weight: bold; font-size: 16px; margin: 0;">
-            {q_idx + 1}. {quiz['question']}
-        </p>
+    <div class="quiz-card">
+        <strong>ข้อ {q_idx + 1}: {quiz['question']}</strong>
     </div>
     """, unsafe_allow_html=True)
 
