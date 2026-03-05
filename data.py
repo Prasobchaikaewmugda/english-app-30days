@@ -60,7 +60,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'May I have your hospital card, please?' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ท่านมีนัดไว้ก่อนไหม?",
                     "ขอบัตรโรงพยาบาลของท่านด้วยได้ไหมคะ/ครับ?",
                     "กรุณากรอกแบบฟอร์มนี้ก่อนนะคะ/ครับ",
@@ -69,7 +69,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าอยากถามว่า 'ท่านต้องการไปแผนกไหน?' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "Do you have an appointment today?",
                     "Which department would you like to visit?",
                     "Is this your first visit to our hospital?",
@@ -78,7 +78,7 @@ lessons_data = {
             },
             {
                 "question": "'Please take a number and have a seat.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "กรุณารับบัตรคิวและนั่งรอได้เลยค่ะ/ครับ",
                     "หมอจะพบท่านในอีกยี่สิบนาที",
                     "ขอให้มีวันที่ดีนะคะ/ครับ",
@@ -148,7 +148,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'No problem at all! Glad I could help.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ขอโทษที่ทำให้รอนานนะคะ/ครับ",
                     "ไม่มีปัญหาเลยค่ะ/ครับ! ดีใจที่ได้ช่วย",
                     "ขอบคุณสำหรับทุกอย่างค่ะ/ครับ",
@@ -157,7 +157,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าอยากพูดว่า 'ยินดีเลยค่ะ เป็นความยินดีของฉัน' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "Thank you so much for your help.",
                     "You're welcome! It's my pleasure.",
                     "That's very kind of you to say so.",
@@ -166,7 +166,7 @@ lessons_data = {
             },
             {
                 "question": "'Don't mention it. It's part of my job.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันไม่ได้ยินสิ่งที่คุณพูด",
                     "นี่ไม่ใช่หน้าที่ของฉัน",
                     "ไม่ต้องพูดถึงเลยค่ะ/ครับ นี่คืองานของฉัน",
@@ -236,7 +236,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'Take one tablet three times a day after meals.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "รับประทานยาครั้งละ 3 เม็ด วันละครั้ง ก่อนอาหาร",
                     "รับประทานยาครั้งละ 1 เม็ด วันละ 3 ครั้ง หลังอาหาร",
                     "รับประทานยาครั้งละ 1 เม็ด วันละ 2 ครั้ง หลังอาหาร",
@@ -245,7 +245,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการบอกว่า 'ยานี้อาจทำให้ง่วงนอน' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "Do not exceed the recommended dosage.",
                     "Store this medicine in a cool, dry place.",
                     "This medicine may cause drowsiness.",
@@ -254,7 +254,7 @@ lessons_data = {
             },
             {
                 "question": "'Please come back if your symptoms get worse.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "กรุณารับประทานยาให้ครบนะคะ/ครับ",
                     "ถ้าอาการแย่ลง กรุณากลับมาพบแพทย์อีกครั้งนะคะ/ครับ",
                     "ไม่ควรรับประทานยาเกินขนาดนะคะ/ครับ",
@@ -324,7 +324,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'I'd like to introduce my supervisor.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันอยากรู้จักผู้บังคับบัญชาของคุณ",
                     "ขอแนะนำผู้บังคับบัญชาของฉันนะคะ/ครับ",
                     "ผู้บังคับบัญชาของฉันชื่ออะไร?",
@@ -333,7 +333,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการบอกว่า 'ฉันทำงานอยู่แผนกผู้ป่วยนอก' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "I work in the emergency department.",
                     "I work in the outpatient department.",
                     "I work in the inpatient department.",
@@ -342,7 +342,7 @@ lessons_data = {
             },
             {
                 "question": "'Feel free to ask me if you have any questions.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันไม่สามารถตอบคำถามได้",
                     "กรุณาส่งคำถามมาทางอีเมล",
                     "มีคำถามอะไรถามฉันได้เลยนะคะ/ครับ",
@@ -412,7 +412,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'My shift starts at eight and ends at four.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "กะงานของฉันเริ่มแปดโมงเช้าและเลิกสี่โมงเย็น",
                     "ฉันทำงานแปดชั่วโมงต่อวัน",
                     "ฉันเริ่มงานตอนบ่ายสี่โมง",
@@ -421,7 +421,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าอยากบอกว่า 'ฉันชอบนอนตื่นสายในวันหยุด' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "I always wake up early on weekends.",
                     "On weekends I like to sleep in a little.",
                     "I never rest on weekends.",
@@ -430,7 +430,7 @@ lessons_data = {
             },
             {
                 "question": "'I try to drink eight glasses of water every day.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันดื่มน้ำแปดแก้วทุกวันโดยไม่ขาด",
                     "ฉันพยายามดื่มน้ำแปดแก้วทุกวัน",
                     "หมอแนะนำให้ฉันดื่มน้ำแปดแก้วต่อวัน",
@@ -500,7 +500,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'I'm so sorry to keep you waiting.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันรอคุณมานานมากแล้ว",
                     "ขอโทษมากที่ทำให้รอนานนะคะ/ครับ",
                     "กรุณารอสักครู่นะคะ/ครับ",
@@ -509,7 +509,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าอยากพูดว่า 'ลาก่อน ดูแลสุขภาพด้วย' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "See you at your next appointment.",
                     "Thank you for coming. We hope to see you again.",
                     "Goodbye! Take care and stay healthy.",
@@ -518,7 +518,7 @@ lessons_data = {
             },
             {
                 "question": "'I forgive you. These things happen.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันไม่ให้อภัยคุณ",
                     "ฉันให้อภัยคุณแล้ว สิ่งเหล่านี้มันเกิดขึ้นได้",
                     "สิ่งเหล่านี้ไม่ควรเกิดขึ้น",
@@ -588,7 +588,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'I'm married and we have two lovely children.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันโสดและมีลูกสองคน",
                     "ฉันแต่งงานแล้วและมีลูกที่น่ารักสองคน",
                     "ฉันอยากมีลูกสองคน",
@@ -597,7 +597,7 @@ lessons_data = {
             },
             {
                 "question": "'Family support is very important for recovery.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ครอบครัวต้องให้กำลังใจผู้ป่วยเสมอ",
                     "กำลังใจจากครอบครัวสำคัญมากต่อการฟื้นตัว",
                     "ผู้ป่วยควรอยู่กับครอบครัวตลอดเวลา",
@@ -606,7 +606,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการถามว่า 'คุณแต่งงานแล้วหรือยังโสดอยู่?' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "Do you have any children?",
                     "Are you married or still single?",
                     "How long have you been married?",
@@ -676,7 +676,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'I'm not a big fan of night shifts.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันชอบทำงานกะดึกมาก",
                     "ฉันไม่ค่อยชอบการทำงานกะดึกเท่าไหร่",
                     "ฉันไม่เคยทำงานกะดึก",
@@ -685,7 +685,7 @@ lessons_data = {
             },
             {
                 "question": "'I prefer Thai food over any other cuisine.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันชอบกินอาหารทุกประเภท",
                     "ฉันชอบอาหารไทยมากกว่าอาหารประเภทอื่นๆ",
                     "ฉันชอบอาหารต่างชาติมากกว่าอาหารไทย",
@@ -694,7 +694,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการบอกว่า 'ฉันทนสภาพแวดล้อมที่เสียงดังไม่ได้' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "I don't like noisy music.",
                     "I can't stand loud and noisy environments.",
                     "I prefer quiet hospitals.",
@@ -764,7 +764,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'I enjoy painting watercolours as a hobby.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันชอบซื้อภาพสีน้ำเป็นงานอดิเรก",
                     "ฉันชอบวาดภาพสีน้ำเป็นงานอดิเรก",
                     "ฉันสอนวาดภาพสีน้ำ",
@@ -773,7 +773,7 @@ lessons_data = {
             },
             {
                 "question": "'I find gardening very calming after a long shift.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "ฉันทำสวนทุกเช้าก่อนไปทำงาน",
                     "ฉันรู้สึกสงบใจมากเมื่อทำสวนหลังจากทำงานกะยาวๆ",
                     "การทำสวนทำให้ฉันเหนื่อยมาก",
@@ -782,7 +782,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการถามว่า 'ปกติคุณชอบทำอะไรในเวลาว่าง?' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "What are you doing right now?",
                     "What do you usually do in your free time?",
                     "Do you have time to talk?",
@@ -852,7 +852,7 @@ lessons_data = {
         "quizzes": [
             {
                 "question": "'My job can be challenging but very fulfilling.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "งานของฉันง่ายและน่าเบื่อมาก",
                     "งานของฉันอาจท้าทาย แต่ก็รู้สึกคุ้มค่ามาก",
                     "ฉันอยากเปลี่ยนงานใหม่",
@@ -861,7 +861,7 @@ lessons_data = {
             },
             {
                 "question": "'Teamwork and communication are key skills in healthcare.' แปลว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "การสื่อสารไม่สำคัญในงานสุขภาพ",
                     "การทำงานคนเดียวดีกว่าทำงานเป็นทีม",
                     "การทำงานเป็นทีมและการสื่อสารเป็นทักษะสำคัญในงานสุขภาพ",
@@ -870,7 +870,7 @@ lessons_data = {
             },
             {
                 "question": "ถ้าต้องการบอกว่า 'ฉันภูมิใจที่ได้ดูแลชุมชนของฉัน' ควรพูดว่าอะไร?",
-                "options":  [
+                "choices":  [
                     "I enjoy working with my community.",
                     "I'm proud to serve and care for my community.",
                     "My community needs more healthcare workers.",
