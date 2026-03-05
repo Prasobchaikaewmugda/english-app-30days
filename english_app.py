@@ -259,6 +259,7 @@ for i, phrase in enumerate(phrases):
                 <strong style="color:#111111 !important;">{i + 1}. {phrase['english']}</strong>
             </p>
         </div>
+        <p style="color: black !important;">
         """, unsafe_allow_html=True)
 
     with col_audio:

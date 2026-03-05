@@ -879,10 +879,10 @@ lessons_data = {
             },
         ]
     },
-    
+
     "Day 11": {
         "title": "การแสดงอารมณ์และความรู้สึก",
-        "sentences": [
+        "phrases": [
             {
                 "english": "I am so happy today!",
                 "pronunciation": "ไอ แอม โซ แฮปปี้ ทูเดย์",
@@ -964,7 +964,7 @@ lessons_data = {
     },
     "Day 12": {
         "title": "การบอกเวลา",
-        "sentences": [
+        "phrases": [
             {
                 "english": "What time is it now?",
                 "pronunciation": "วอท ไทม์ อิส อิท เนา",
@@ -1041,7 +1041,7 @@ lessons_data = {
     },
     "Day 13": {
         "title": "การบรรยายลักษณะผู้คน และการซื้อของ",
-        "sentences": [
+        "phrases": [
             {
                 "english": "She has long curly hair.",
                 "pronunciation": "ชี แฮส ลอง เคอร์ลี่ แฮร์",
@@ -1128,7 +1128,7 @@ lessons_data = {
     },
     "Day 14": {
         "title": "การบอกทาง",
-        "sentences": [
+        "phrases": [
             {
                 "english": "Excuse me, where is the nearest bank?",
                 "pronunciation": "เอ็กคิวส์ มี แวร์ อิส เดอะ เนียเรสท์ แบงค์",
@@ -1210,7 +1210,7 @@ lessons_data = {
     },
     "Day 15": {
         "title": "การไปพบแพทย์",
-        "sentences": [
+        "phrases": [
             {
                 "english": "I would like to make an appointment with the doctor.",
                 "pronunciation": "ไอ วูด ไลค์ ทู เมค แอน อะพอยท์เมนท์ วิธ เดอะ ด็อคเตอร์",
@@ -1292,7 +1292,7 @@ lessons_data = {
     },
     "Day 16": {
         "title": "การพูดคุยเกี่ยวกับทักษะและความสามารถ",
-        "sentences": [
+        "phrases": [
             {
                 "english": "I can speak three languages.",
                 "pronunciation": "ไอ แคน สปีค ธรี แลงกวิดเจส",
@@ -1379,7 +1379,7 @@ lessons_data = {
     },
     "Day 17": {
         "title": "การพูดคุยเกี่ยวกับวันหยุด",
-        "sentences": [
+        "phrases": [
             {
                 "english": "Where did you go for your holiday?",
                 "pronunciation": "แวร์ ดิด ยู โก ฟอร์ ยัวร์ ฮอลิเดย์",
@@ -1461,7 +1461,7 @@ lessons_data = {
     },
     "Day 18": {
         "title": "การพูดคุยเกี่ยวกับสภาพอากาศ",
-        "sentences": [
+        "phrases": [
             {
                 "english": "What is the weather like today?",
                 "pronunciation": "วอท อิส เดอะ เวเธอร์ ไลค์ ทูเดย์",
@@ -1543,7 +1543,7 @@ lessons_data = {
     },
     "Day 19": {
         "title": "การพูดคุยกับเหตุการณ์ในอดีต",
-        "sentences": [
+        "phrases": [
             {
                 "english": "I visited Paris last summer.",
                 "pronunciation": "ไอ วิซิทิด แพริส ลาสท์ ซัมเมอร์",
@@ -1630,7 +1630,7 @@ lessons_data = {
     },
     "Day 20": {
         "title": "การพูดคุยในอนาคตและการคาดการณ์",
-        "sentences": [
+        "phrases": [
             {
                 "english": "I am going to travel abroad next year.",
                 "pronunciation": "ไอ แอม โกอิ้ง ทู แทรเวล อะบรอด เน็กซท์ เยียร์",
