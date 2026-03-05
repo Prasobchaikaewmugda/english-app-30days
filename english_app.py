@@ -8,6 +8,7 @@
 import streamlit as st
 from gtts import gTTS
 import io
+import google.generativeai as genai
 from data import lessons_data   # ดึงข้อมูลบทเรียนทั้งหมดจากไฟล์ data.py
 
 
@@ -116,6 +117,10 @@ if "quiz_checked" not in st.session_state:
 if "current_day" not in st.session_state:
     st.session_state.current_day = None
 
+# เก็บประวัติการแชทของ AI Tutor
+if "tutor_messages" not in st.session_state:
+    st.session_state.tutor_messages = []
+
 
 # ============================================================
 # 3. ฟังก์ชันช่วย
@@ -128,6 +133,51 @@ def get_audio_bytes(text: str) -> bytes:
     tts.write_to_fp(buf)
     buf.seek(0)
     return buf.read()
+
+
+def get_gemini_model():
+    """
+    คืนค่า instance ของ Gemini model จาก session_state (สร้างครั้งแรกครั้งเดียวต่อ session)
+    """
+    if "gemini_model" not in st.session_state:
+        api_key = st.secrets.get("GEMINI_API_KEY", None)
+        if not api_key:
+            return None
+        genai.configure(api_key=api_key)
+        st.session_state.gemini_model = genai.GenerativeModel("gemini-1.5-pro")
+    return st.session_state.gemini_model
+
+
+def get_grammar_feedback(sentence: str) -> str:
+    """
+    เรียก Google Gemini ช่วยตรวจแกรมม่าและให้คำแนะนำสั้นๆ
+    """
+    model = get_gemini_model()
+    if model is None:
+        return (
+            "⚠️ ยังไม่ได้ตั้งค่า GEMINI_API_KEY ใน `st.secrets` "
+            "จึงไม่สามารถใช้ AI Tutor ได้ในตอนนี้ค่ะ/ครับ"
+        )
+
+    prompt = (
+        "You are an English grammar tutor for Thai learners.\n"
+        "Task:\n"
+        "1) Check the grammar of the user's English sentence.\n"
+        "2) Briefly explain the main mistake(s) in simple English.\n"
+        "3) Provide 1–2 corrected example sentences.\n"
+        "4) Optionally give a short Thai explanation if helpful.\n"
+        "Keep the answer short and focused (3–6 sentences total).\n\n"
+        f"User sentence: \"{sentence}\""
+    )
+
+    try:
+        response = model.generate_content(prompt)
+        text = (response.text or "").strip()
+        if not text:
+            return "ขออภัยค่ะ ระบบไม่สามารถสร้างคำตอบได้ กรุณาลองใหม่อีกครั้งนะคะ/ครับ"
+        return text
+    except Exception:
+        return "ขออภัยค่ะ ระบบ AI มีปัญหาชั่วคราว กรุณาลองใหม่อีกครั้งภายหลังนะคะ/ครับ"
 
 
 def xp_to_level(xp: int) -> tuple:
